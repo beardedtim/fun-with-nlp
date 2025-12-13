@@ -1,0 +1,13 @@
+[project]
+name = "bible-lm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pip>=25.3",
+    "rdflib>=7.5.0",
+    "setuptools>=80.9.0",
+    "spacy>=3.8.11",
+    "wheel>=0.45.1",
+]
