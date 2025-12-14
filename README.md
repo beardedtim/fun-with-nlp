@@ -82,3 +82,52 @@ for bookName, bookDf in must_be_used_more_than_twice:
 write_json_file(FINDINGS_DIR / "lift" / "grouped_top_5.json", book_output_data)
 
 ```
+
+## Saving into Neo4J for exploring
+
+First, start docker
+
+```sh
+docker compose up -d
+```
+
+Next, save into graph in python
+
+```python
+
+df = read_all_post_indexes(INDEX_DIR_PATH)
+try:
+    save_into_graph(df)
+finally:
+    neo4jDriver.close()
+```
+
+Run these via the web ui exposed by neo
+
+```
+CREATE INDEX entity_name IF NOT EXISTS FOR (n:Entity) ON (n.name);
+CREATE INDEX action_predicate IF NOT EXISTS FOR ()-[r:ACTION]-() ON (r.predicate);
+```
+
+to create some indexes. And here's some queries to run to explore more
+
+```
+# how often is something loved?
+MATCH (s:Entity)-[r:ACTION]->(t:Entity)
+WHERE toLower(r.predicate) = 'love'
+RETURN s.name as Subject, r.predicate AS Predicate, t.name AS Object, r.book AS Book, sum(r.count) AS Frequency
+ORDER BY Frequency DESC
+```
+
+```
+MATCH (n:Entity)
+// Find who n is connected to (undirected)
+OPTIONAL MATCH (n)-[:ACTION]-(m:Entity)
+WITH n, collect(distinct m.name) as Neighbors
+RETURN
+    n.name as Entity,
+    size(Neighbors) as Degree,
+    Neighbors[0..5] as SampleConnections
+ORDER BY Degree DESC
+LIMIT 20;
+```

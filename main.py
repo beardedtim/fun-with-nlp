@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
 import os
+import urllib.parse
+from neo4j import GraphDatabase
 
 ARTIFACTS_DIR = Path('./artifacts')
 RAW_DIR = ARTIFACTS_DIR / 'raw'
@@ -19,6 +21,10 @@ FINDINGS_DIR = ARTIFACTS_DIR / "findings"
 INDEX_DIR_PATH = Path(INDEX_DIR)
 
 nlp = spacy.load("en_core_web_trf")
+uri = "bolt://localhost:7687"
+username = "neo4j"
+password = "ou812sosueme"
+neo4jDriver = GraphDatabase.driver(uri, auth=(username, password))
 
 # RDF Triple Info
 RDF_Graph = Graph()
@@ -164,6 +170,36 @@ def add_to_graph(data, prefix):
         s, p, o = namespace[s_raw], namespace[p_raw], namespace[o_raw]
 
         RDF_Graph.add((s, p, o))
+
+def make_uri(term, base="http://mck-p.com/bible/data/"):
+    """
+    Turns the given term and base into a namespaced term
+    so it can be used as a URI
+    """
+    safe_term = urllib.parse.quote(str(term))
+    return f"<{base}{safe_term}>"
+
+def make_book_uri(book_name):
+    safe_book = urllib.parse.quote(str(book_name))
+    return f"<http://mck-p.com/bible/book/{safe_book}>"
+
+def create_nquad(df):
+    return (
+        "<< " + df['s_uri'] + " " + df['p_uri'] + " " + df['o_uri'] + " >> " +
+        "<http://mck-p.com/bible/ontology/count>" + " " +
+        '"' + df['count'].astype(str) + '"^^<http://www.w3.org/2001/XMLSchema#integer> ' +
+        df['g_uri'] + " ."
+    )
+
+def configure_uri_for_df(df):
+    df['s_uri'] = df['source'].apply(lambda x: make_uri(x))
+    df['p_uri'] = df['edge'].apply(lambda x: make_uri(x))
+    df['o_uri'] = df['target'].apply(lambda x: make_uri(x))
+    df['g_uri'] = df['book'].apply(make_book_uri)
+    df['nquad'] = create_nquad(df)
+
+    return df
+    
 
 def parse_triples_from_key(str):
     """
@@ -416,6 +452,35 @@ def save_df_triples(df, file_path):
     # Save
     plt.savefig(file_path, bbox_inches='tight')
 
+
+def save_into_graph(df, batch_size=10000):
+    """
+    Saves the dataframe triples into Neo4J in <batch_size>
+    """
+    df_clean = df.fillna(value={"count": 0, "book": "Unknown"})
+    data_list = df_clean.to_dict('records')
+
+    total = len(data_list)
+    print(f"----Starting Ingest of {total} rows-----")
+    query = """
+    UNWIND $rows AS row
+    MERGE (s:Entity {name: row.source})
+    MERGE (t:Entity {name: row.target})
+    CREATE (s)-[:ACTION {
+        predicate: row.edge,
+        count: row.count,
+        book: row.book
+    }]->(t)
+    """
+
+    with neo4jDriver.session() as session:
+        for i in range(0, total, batch_size):
+            print(f'-----Now at {i}-----')
+            batch = data_list[i : i + batch_size]
+            session.run(query, rows=batch)
+            
+            print(f'-----Done with {i} through {min(i+batch_size, total)}-----')
+
 def main():
     print("Hello from bible-lm!")
     
@@ -438,31 +503,13 @@ def main():
 
     # index whole bible, then compare books
     df = read_all_post_indexes(INDEX_DIR_PATH)
-    print(f'Got DF of whole bible')
-    df = calculate_lift_grouped(df, group_col='book')
-    # Save the triple as a value for later
-    df['triple'] = df['source'] + " -> " + df['edge'] + " -> " + df['target']
+    try:
+        save_into_graph(df)
+    finally:
+        neo4jDriver.close()
 
-    # Now we can investigate
-    must_be_used_more_than_twice = df[df['count'] >= 3]
-
-    # Get the top 5 from each book by lift
-    top_5_df = must_be_used_more_than_twice.groupby('book', group_keys=False).apply(lambda x: x.nlargest(5, 'lift'))
-
-    # Save to image
-    # Save the top 5 by lift with only
-    lift_img_file_path = FINDINGS_DIR / "lift" / "top-5-lift.png"
-    save_df_triples(top_5_df, lift_img_file_path)
-
-    # Save the top 5 by count
-    counnt_img_file_path = FINDINGS_DIR / "lift" / "top-5-count.png"
-    save_df_triples(
-    df.groupby('book', group_keys=False).apply(lambda x: x.nlargest(5, 'count')),
-    counnt_img_file_path
-    )
-
-    print("\n")
-    print("-----All Done!------")
+    # df = configure_uri_for_df(df)
+    # df['nquad'].to_csv(ARTIFACTS_DIR / "dataframe" / "bible_data.trig", index=False, header=False, quoting=3, escapechar=None)
 
     
 
