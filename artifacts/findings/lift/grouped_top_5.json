@@ -1,0 +1,4154 @@
+{
+    "1 Chronicles": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "answer",
+                "target": "he",
+                "count": 3,
+                "book": "1 Chronicles",
+                "prob_consequent": 0.08102345415778252,
+                "prob_antecedent": 0.006396588486140725,
+                "joint_prob": 0.006396588486140725,
+                "confidence": 1.0,
+                "lift": 12.342105263157894
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "1 Chronicles",
+                "prob_consequent": 0.017057569296375266,
+                "prob_antecedent": 0.006396588486140725,
+                "joint_prob": 0.006396588486140725,
+                "confidence": 1.0,
+                "lift": 58.625
+            },
+            {
+                "source": "who",
+                "edge": "build",
+                "target": "house",
+                "count": 3,
+                "book": "1 Chronicles",
+                "prob_consequent": 0.01279317697228145,
+                "prob_antecedent": 0.010660980810234541,
+                "joint_prob": 0.006396588486140725,
+                "confidence": 0.6,
+                "lift": 46.9
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "1 Chronicles",
+                "prob_consequent": 0.017057569296375266,
+                "prob_antecedent": 0.006396588486140725,
+                "joint_prob": 0.006396588486140725,
+                "confidence": 1.0,
+                "lift": 58.625
+            },
+            {
+                "source": "who",
+                "edge": "build",
+                "target": "house",
+                "count": 3,
+                "book": "1 Chronicles",
+                "prob_consequent": 0.01279317697228145,
+                "prob_antecedent": 0.010660980810234541,
+                "joint_prob": 0.006396588486140725,
+                "confidence": 0.6,
+                "lift": 46.9
+            },
+            {
+                "source": "lord",
+                "edge": "answer",
+                "target": "he",
+                "count": 3,
+                "book": "1 Chronicles",
+                "prob_consequent": 0.08102345415778252,
+                "prob_antecedent": 0.006396588486140725,
+                "joint_prob": 0.006396588486140725,
+                "confidence": 1.0,
+                "lift": 12.342105263157894
+            }
+        ]
+    },
+    "1 Corinthians": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "this",
+                "count": 6,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.04178272980501393,
+                "prob_antecedent": 0.022284122562674095,
+                "joint_prob": 0.016713091922005572,
+                "confidence": 0.75,
+                "lift": 17.95
+            },
+            {
+                "source": "i",
+                "edge": "thank",
+                "target": "god",
+                "count": 4,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.019498607242339833,
+                "prob_antecedent": 0.011142061281337047,
+                "joint_prob": 0.011142061281337047,
+                "confidence": 1.0,
+                "lift": 51.285714285714285
+            },
+            {
+                "source": "i",
+                "edge": "have",
+                "target": "right",
+                "count": 4,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.025069637883008356,
+                "prob_antecedent": 0.027855153203342618,
+                "joint_prob": 0.011142061281337047,
+                "confidence": 0.4,
+                "lift": 15.955555555555557
+            },
+            {
+                "source": "you",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.0807799442896936,
+                "prob_antecedent": 0.008356545961002786,
+                "joint_prob": 0.008356545961002786,
+                "confidence": 1.0,
+                "lift": 12.379310344827585
+            },
+            {
+                "source": "god",
+                "edge": "choose",
+                "target": "thing",
+                "count": 3,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.025069637883008356,
+                "prob_antecedent": 0.008356545961002786,
+                "joint_prob": 0.008356545961002786,
+                "confidence": 1.0,
+                "lift": 39.88888888888889
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "thank",
+                "target": "god",
+                "count": 4,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.019498607242339833,
+                "prob_antecedent": 0.011142061281337047,
+                "joint_prob": 0.011142061281337047,
+                "confidence": 1.0,
+                "lift": 51.285714285714285
+            },
+            {
+                "source": "god",
+                "edge": "choose",
+                "target": "thing",
+                "count": 3,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.025069637883008356,
+                "prob_antecedent": 0.008356545961002786,
+                "joint_prob": 0.008356545961002786,
+                "confidence": 1.0,
+                "lift": 39.88888888888889
+            },
+            {
+                "source": "god",
+                "edge": "call",
+                "target": "they",
+                "count": 3,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.025069637883008356,
+                "prob_antecedent": 0.013927576601671309,
+                "joint_prob": 0.008356545961002786,
+                "confidence": 0.6000000000000001,
+                "lift": 23.933333333333337
+            },
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "this",
+                "count": 6,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.04178272980501393,
+                "prob_antecedent": 0.022284122562674095,
+                "joint_prob": 0.016713091922005572,
+                "confidence": 0.75,
+                "lift": 17.95
+            },
+            {
+                "source": "i",
+                "edge": "have",
+                "target": "right",
+                "count": 4,
+                "book": "1 Corinthians",
+                "prob_consequent": 0.025069637883008356,
+                "prob_antecedent": 0.027855153203342618,
+                "joint_prob": 0.011142061281337047,
+                "confidence": 0.4,
+                "lift": 15.955555555555557
+            }
+        ]
+    },
+    "1 John": {
+        "by_count": [
+            {
+                "source": "we",
+                "edge": "love",
+                "target": "one",
+                "count": 3,
+                "book": "1 John",
+                "prob_consequent": 0.041666666666666664,
+                "prob_antecedent": 0.05,
+                "joint_prob": 0.025,
+                "confidence": 0.5,
+                "lift": 12.0
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "we",
+                "edge": "love",
+                "target": "one",
+                "count": 3,
+                "book": "1 John",
+                "prob_consequent": 0.041666666666666664,
+                "prob_antecedent": 0.05,
+                "joint_prob": 0.025,
+                "confidence": 0.5,
+                "lift": 12.0
+            }
+        ]
+    },
+    "1 Kings": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 13,
+                "book": "1 Kings",
+                "prob_consequent": 0.04797047970479705,
+                "prob_antecedent": 0.015990159901599015,
+                "joint_prob": 0.015990159901599015,
+                "confidence": 1.0,
+                "lift": 20.846153846153847
+            },
+            {
+                "source": "you",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "1 Kings",
+                "prob_consequent": 0.04797047970479705,
+                "prob_antecedent": 0.006150061500615006,
+                "joint_prob": 0.004920049200492005,
+                "confidence": 0.8,
+                "lift": 16.676923076923078
+            },
+            {
+                "source": "he",
+                "edge": "do",
+                "target": "what",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.04797047970479705,
+                "prob_antecedent": 0.01107011070110701,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 0.33333333333333337,
+                "lift": 6.948717948717949
+            },
+            {
+                "source": "i",
+                "edge": "give",
+                "target": "you",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.04428044280442804,
+                "prob_antecedent": 0.01845018450184502,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 0.19999999999999998,
+                "lift": 4.516666666666667
+            },
+            {
+                "source": "he",
+                "edge": "carve",
+                "target": "cherubim",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.007380073800738007,
+                "prob_antecedent": 0.0036900369003690036,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 1.0,
+                "lift": 135.5
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "dog",
+                "edge": "lick",
+                "target": "blood",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.0036900369003690036,
+                "prob_antecedent": 0.0036900369003690036,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 1.0,
+                "lift": 271.0
+            },
+            {
+                "source": "he",
+                "edge": "carve",
+                "target": "cherubim",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.007380073800738007,
+                "prob_antecedent": 0.0036900369003690036,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 1.0,
+                "lift": 135.5
+            },
+            {
+                "source": "they",
+                "edge": "arouse",
+                "target": "anger",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.008610086100861008,
+                "prob_antecedent": 0.0036900369003690036,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 1.0,
+                "lift": 116.14285714285715
+            },
+            {
+                "source": "i",
+                "edge": "tear",
+                "target": "kingdom",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.007380073800738007,
+                "prob_antecedent": 0.004920049200492005,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 0.75,
+                "lift": 101.625
+            },
+            {
+                "source": "he",
+                "edge": "follow",
+                "target": "way",
+                "count": 3,
+                "book": "1 Kings",
+                "prob_consequent": 0.006150061500615006,
+                "prob_antecedent": 0.007380073800738007,
+                "joint_prob": 0.0036900369003690036,
+                "confidence": 0.5,
+                "lift": 81.3
+            }
+        ]
+    },
+    "1 Peter": {
+        "by_count": [
+            {
+                "source": "who",
+                "edge": "call",
+                "target": "you",
+                "count": 3,
+                "book": "1 Peter",
+                "prob_consequent": 0.14705882352941177,
+                "prob_antecedent": 0.04411764705882353,
+                "joint_prob": 0.04411764705882353,
+                "confidence": 1.0,
+                "lift": 6.8
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "who",
+                "edge": "call",
+                "target": "you",
+                "count": 3,
+                "book": "1 Peter",
+                "prob_consequent": 0.14705882352941177,
+                "prob_antecedent": 0.04411764705882353,
+                "joint_prob": 0.04411764705882353,
+                "confidence": 1.0,
+                "lift": 6.8
+            }
+        ]
+    },
+    "1 Samuel": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "what",
+                "count": 5,
+                "book": "1 Samuel",
+                "prob_consequent": 0.044633368756641874,
+                "prob_antecedent": 0.008501594048884165,
+                "joint_prob": 0.005313496280552604,
+                "confidence": 0.625,
+                "lift": 14.00297619047619
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "1 Samuel",
+                "prob_consequent": 0.044633368756641874,
+                "prob_antecedent": 0.004250797024442083,
+                "joint_prob": 0.004250797024442083,
+                "confidence": 1.0,
+                "lift": 22.4047619047619
+            },
+            {
+                "source": "you",
+                "edge": "do",
+                "target": "thing",
+                "count": 4,
+                "book": "1 Samuel",
+                "prob_consequent": 0.011689691817215728,
+                "prob_antecedent": 0.011689691817215728,
+                "joint_prob": 0.004250797024442083,
+                "confidence": 0.36363636363636365,
+                "lift": 31.107438016528928
+            },
+            {
+                "source": "saul",
+                "edge": "send",
+                "target": "man",
+                "count": 4,
+                "book": "1 Samuel",
+                "prob_consequent": 0.02975557917109458,
+                "prob_antecedent": 0.007438894792773645,
+                "joint_prob": 0.004250797024442083,
+                "confidence": 0.5714285714285714,
+                "lift": 19.20408163265306
+            },
+            {
+                "source": "lord",
+                "edge": "answer",
+                "target": "he",
+                "count": 4,
+                "book": "1 Samuel",
+                "prob_consequent": 0.07332624867162593,
+                "prob_antecedent": 0.005313496280552604,
+                "joint_prob": 0.004250797024442083,
+                "confidence": 0.7999999999999999,
+                "lift": 10.91014492753623
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "philistines",
+                "edge": "gather",
+                "target": "force",
+                "count": 3,
+                "book": "1 Samuel",
+                "prob_consequent": 0.005313496280552604,
+                "prob_antecedent": 0.003188097768331562,
+                "joint_prob": 0.003188097768331562,
+                "confidence": 1.0,
+                "lift": 188.2
+            },
+            {
+                "source": "saul",
+                "edge": "slay",
+                "target": "thousand",
+                "count": 3,
+                "book": "1 Samuel",
+                "prob_consequent": 0.005313496280552604,
+                "prob_antecedent": 0.003188097768331562,
+                "joint_prob": 0.003188097768331562,
+                "confidence": 1.0,
+                "lift": 188.2
+            },
+            {
+                "source": "david",
+                "edge": "reach",
+                "target": "ziklag",
+                "count": 3,
+                "book": "1 Samuel",
+                "prob_consequent": 0.006376195536663124,
+                "prob_antecedent": 0.003188097768331562,
+                "joint_prob": 0.003188097768331562,
+                "confidence": 1.0,
+                "lift": 156.83333333333334
+            },
+            {
+                "source": "i",
+                "edge": "lay",
+                "target": "hand",
+                "count": 3,
+                "book": "1 Samuel",
+                "prob_consequent": 0.009564293304994687,
+                "prob_antecedent": 0.003188097768331562,
+                "joint_prob": 0.003188097768331562,
+                "confidence": 1.0,
+                "lift": 104.55555555555554
+            },
+            {
+                "source": "i",
+                "edge": "find",
+                "target": "favor",
+                "count": 3,
+                "book": "1 Samuel",
+                "prob_consequent": 0.006376195536663124,
+                "prob_antecedent": 0.006376195536663124,
+                "joint_prob": 0.003188097768331562,
+                "confidence": 0.5,
+                "lift": 78.41666666666667
+            }
+        ]
+    },
+    "1 Thessalonians": {
+        "by_count": [
+            {
+                "source": "we",
+                "edge": "tell",
+                "target": "you",
+                "count": 4,
+                "book": "1 Thessalonians",
+                "prob_consequent": 0.29411764705882354,
+                "prob_antecedent": 0.058823529411764705,
+                "joint_prob": 0.058823529411764705,
+                "confidence": 1.0,
+                "lift": 3.4
+            },
+            {
+                "source": "we",
+                "edge": "thank",
+                "target": "god",
+                "count": 3,
+                "book": "1 Thessalonians",
+                "prob_consequent": 0.07352941176470588,
+                "prob_antecedent": 0.04411764705882353,
+                "joint_prob": 0.04411764705882353,
+                "confidence": 1.0,
+                "lift": 13.6
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "we",
+                "edge": "thank",
+                "target": "god",
+                "count": 3,
+                "book": "1 Thessalonians",
+                "prob_consequent": 0.07352941176470588,
+                "prob_antecedent": 0.04411764705882353,
+                "joint_prob": 0.04411764705882353,
+                "confidence": 1.0,
+                "lift": 13.6
+            },
+            {
+                "source": "we",
+                "edge": "tell",
+                "target": "you",
+                "count": 4,
+                "book": "1 Thessalonians",
+                "prob_consequent": 0.29411764705882354,
+                "prob_antecedent": 0.058823529411764705,
+                "joint_prob": 0.058823529411764705,
+                "confidence": 1.0,
+                "lift": 3.4
+            }
+        ]
+    },
+    "2 Chronicles": {
+        "by_count": [
+            {
+                "source": "he",
+                "edge": "do",
+                "target": "evil",
+                "count": 9,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.012429378531073447,
+                "prob_antecedent": 0.011299435028248588,
+                "joint_prob": 0.010169491525423728,
+                "confidence": 0.8999999999999999,
+                "lift": 72.40909090909089
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 8,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.0327683615819209,
+                "prob_antecedent": 0.00903954802259887,
+                "joint_prob": 0.00903954802259887,
+                "confidence": 1.0,
+                "lift": 30.517241379310345
+            },
+            {
+                "source": "he",
+                "edge": "follow",
+                "target": "way",
+                "count": 5,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.007909604519774011,
+                "prob_antecedent": 0.007909604519774011,
+                "joint_prob": 0.005649717514124294,
+                "confidence": 0.7142857142857143,
+                "lift": 90.3061224489796
+            },
+            {
+                "source": "he",
+                "edge": "build",
+                "target": "place",
+                "count": 4,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.011299435028248588,
+                "prob_antecedent": 0.01694915254237288,
+                "joint_prob": 0.004519774011299435,
+                "confidence": 0.26666666666666666,
+                "lift": 23.6
+            },
+            {
+                "source": "i",
+                "edge": "build",
+                "target": "temple",
+                "count": 3,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.022598870056497175,
+                "prob_antecedent": 0.003389830508474576,
+                "joint_prob": 0.003389830508474576,
+                "confidence": 1.0,
+                "lift": 44.25
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "he",
+                "edge": "follow",
+                "target": "way",
+                "count": 5,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.007909604519774011,
+                "prob_antecedent": 0.007909604519774011,
+                "joint_prob": 0.005649717514124294,
+                "confidence": 0.7142857142857143,
+                "lift": 90.3061224489796
+            },
+            {
+                "source": "he",
+                "edge": "do",
+                "target": "evil",
+                "count": 9,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.012429378531073447,
+                "prob_antecedent": 0.011299435028248588,
+                "joint_prob": 0.010169491525423728,
+                "confidence": 0.8999999999999999,
+                "lift": 72.40909090909089
+            },
+            {
+                "source": "he",
+                "edge": "remove",
+                "target": "place",
+                "count": 3,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.011299435028248588,
+                "prob_antecedent": 0.005649717514124294,
+                "joint_prob": 0.003389830508474576,
+                "confidence": 0.6,
+                "lift": 53.1
+            },
+            {
+                "source": "i",
+                "edge": "build",
+                "target": "temple",
+                "count": 3,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.022598870056497175,
+                "prob_antecedent": 0.003389830508474576,
+                "joint_prob": 0.003389830508474576,
+                "confidence": 1.0,
+                "lift": 44.25
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 8,
+                "book": "2 Chronicles",
+                "prob_consequent": 0.0327683615819209,
+                "prob_antecedent": 0.00903954802259887,
+                "joint_prob": 0.00903954802259887,
+                "confidence": 1.0,
+                "lift": 30.517241379310345
+            }
+        ]
+    },
+    "2 Kings": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 19,
+                "book": "2 Kings",
+                "prob_consequent": 0.061611374407582936,
+                "prob_antecedent": 0.022511848341232227,
+                "joint_prob": 0.022511848341232227,
+                "confidence": 1.0,
+                "lift": 16.23076923076923
+            },
+            {
+                "source": "he",
+                "edge": "do",
+                "target": "evil",
+                "count": 17,
+                "book": "2 Kings",
+                "prob_consequent": 0.024881516587677725,
+                "prob_antecedent": 0.02843601895734597,
+                "joint_prob": 0.02014218009478673,
+                "confidence": 0.7083333333333334,
+                "lift": 28.46825396825397
+            },
+            {
+                "source": "israel",
+                "edge": "commit",
+                "target": "which",
+                "count": 11,
+                "book": "2 Kings",
+                "prob_consequent": 0.016587677725118485,
+                "prob_antecedent": 0.013033175355450236,
+                "joint_prob": 0.013033175355450236,
+                "confidence": 1.0,
+                "lift": 60.28571428571428
+            },
+            {
+                "source": "king",
+                "edge": "say",
+                "target": "what",
+                "count": 6,
+                "book": "2 Kings",
+                "prob_consequent": 0.061611374407582936,
+                "prob_antecedent": 0.0071090047393364926,
+                "joint_prob": 0.0071090047393364926,
+                "confidence": 1.0,
+                "lift": 16.23076923076923
+            },
+            {
+                "source": "he",
+                "edge": "do",
+                "target": "what",
+                "count": 5,
+                "book": "2 Kings",
+                "prob_consequent": 0.061611374407582936,
+                "prob_antecedent": 0.02843601895734597,
+                "joint_prob": 0.005924170616113744,
+                "confidence": 0.20833333333333331,
+                "lift": 3.3814102564102564
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "you",
+                "edge": "leave",
+                "target": "bed",
+                "count": 3,
+                "book": "2 Kings",
+                "prob_consequent": 0.0035545023696682463,
+                "prob_antecedent": 0.0035545023696682463,
+                "joint_prob": 0.0035545023696682463,
+                "confidence": 1.0,
+                "lift": 281.33333333333337
+            },
+            {
+                "source": "he",
+                "edge": "follow",
+                "target": "way",
+                "count": 4,
+                "book": "2 Kings",
+                "prob_consequent": 0.004739336492890996,
+                "prob_antecedent": 0.005924170616113744,
+                "joint_prob": 0.004739336492890996,
+                "confidence": 0.8000000000000002,
+                "lift": 168.8
+            },
+            {
+                "source": "king",
+                "edge": "invade",
+                "target": "land",
+                "count": 3,
+                "book": "2 Kings",
+                "prob_consequent": 0.008293838862559242,
+                "prob_antecedent": 0.0035545023696682463,
+                "joint_prob": 0.0035545023696682463,
+                "confidence": 1.0,
+                "lift": 120.57142857142856
+            },
+            {
+                "source": "israel",
+                "edge": "commit",
+                "target": "which",
+                "count": 11,
+                "book": "2 Kings",
+                "prob_consequent": 0.016587677725118485,
+                "prob_antecedent": 0.013033175355450236,
+                "joint_prob": 0.013033175355450236,
+                "confidence": 1.0,
+                "lift": 60.28571428571428
+            },
+            {
+                "source": "he",
+                "edge": "tear",
+                "target": "robe",
+                "count": 3,
+                "book": "2 Kings",
+                "prob_consequent": 0.008293838862559242,
+                "prob_antecedent": 0.0071090047393364926,
+                "joint_prob": 0.0035545023696682463,
+                "confidence": 0.5,
+                "lift": 60.28571428571428
+            }
+        ]
+    },
+    "2 Samuel": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "what",
+                "count": 4,
+                "book": "2 Samuel",
+                "prob_consequent": 0.029649595687331536,
+                "prob_antecedent": 0.013477088948787063,
+                "joint_prob": 0.005390835579514825,
+                "confidence": 0.4,
+                "lift": 13.490909090909092
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "2 Samuel",
+                "prob_consequent": 0.029649595687331536,
+                "prob_antecedent": 0.005390835579514825,
+                "joint_prob": 0.005390835579514825,
+                "confidence": 1.0,
+                "lift": 33.72727272727273
+            },
+            {
+                "source": "i",
+                "edge": "show",
+                "target": "kindness",
+                "count": 4,
+                "book": "2 Samuel",
+                "prob_consequent": 0.01078167115902965,
+                "prob_antecedent": 0.006738544474393531,
+                "joint_prob": 0.005390835579514825,
+                "confidence": 0.8,
+                "lift": 74.2
+            },
+            {
+                "source": "david",
+                "edge": "ask",
+                "target": "he",
+                "count": 3,
+                "book": "2 Samuel",
+                "prob_consequent": 0.07816711590296496,
+                "prob_antecedent": 0.005390835579514825,
+                "joint_prob": 0.004043126684636119,
+                "confidence": 0.75,
+                "lift": 9.594827586206897
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "thing",
+                "count": 3,
+                "book": "2 Samuel",
+                "prob_consequent": 0.01078167115902965,
+                "prob_antecedent": 0.013477088948787063,
+                "joint_prob": 0.004043126684636119,
+                "confidence": 0.3,
+                "lift": 27.824999999999996
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "you",
+                "edge": "wish",
+                "target": "whatever",
+                "count": 3,
+                "book": "2 Samuel",
+                "prob_consequent": 0.009433962264150943,
+                "prob_antecedent": 0.004043126684636119,
+                "joint_prob": 0.004043126684636119,
+                "confidence": 1.0,
+                "lift": 106.0
+            },
+            {
+                "source": "i",
+                "edge": "show",
+                "target": "kindness",
+                "count": 4,
+                "book": "2 Samuel",
+                "prob_consequent": 0.01078167115902965,
+                "prob_antecedent": 0.006738544474393531,
+                "joint_prob": 0.005390835579514825,
+                "confidence": 0.8,
+                "lift": 74.2
+            },
+            {
+                "source": "he",
+                "edge": "kill",
+                "target": "whom",
+                "count": 3,
+                "book": "2 Samuel",
+                "prob_consequent": 0.016172506738544475,
+                "prob_antecedent": 0.006738544474393531,
+                "joint_prob": 0.004043126684636119,
+                "confidence": 0.6,
+                "lift": 37.099999999999994
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "2 Samuel",
+                "prob_consequent": 0.029649595687331536,
+                "prob_antecedent": 0.005390835579514825,
+                "joint_prob": 0.005390835579514825,
+                "confidence": 1.0,
+                "lift": 33.72727272727273
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "thing",
+                "count": 3,
+                "book": "2 Samuel",
+                "prob_consequent": 0.01078167115902965,
+                "prob_antecedent": 0.013477088948787063,
+                "joint_prob": 0.004043126684636119,
+                "confidence": 0.3,
+                "lift": 27.824999999999996
+            }
+        ]
+    },
+    "Acts": {
+        "by_count": [
+            {
+                "source": "he",
+                "edge": "say",
+                "target": "this",
+                "count": 6,
+                "book": "Acts",
+                "prob_consequent": 0.036322360953461974,
+                "prob_antecedent": 0.009080590238365494,
+                "joint_prob": 0.00681044267877412,
+                "confidence": 0.75,
+                "lift": 20.6484375
+            },
+            {
+                "source": "they",
+                "edge": "hear",
+                "target": "this",
+                "count": 6,
+                "book": "Acts",
+                "prob_consequent": 0.036322360953461974,
+                "prob_antecedent": 0.009080590238365494,
+                "joint_prob": 0.00681044267877412,
+                "confidence": 0.75,
+                "lift": 20.6484375
+            },
+            {
+                "source": "god",
+                "edge": "raise",
+                "target": "he",
+                "count": 5,
+                "book": "Acts",
+                "prob_consequent": 0.09194097616345062,
+                "prob_antecedent": 0.01362088535754824,
+                "joint_prob": 0.0056753688989784334,
+                "confidence": 0.4166666666666667,
+                "lift": 4.5318930041152266
+            },
+            {
+                "source": "i",
+                "edge": "send",
+                "target": "you",
+                "count": 4,
+                "book": "Acts",
+                "prob_consequent": 0.0340522133938706,
+                "prob_antecedent": 0.007945516458569807,
+                "joint_prob": 0.004540295119182747,
+                "confidence": 0.5714285714285714,
+                "lift": 16.78095238095238
+            },
+            {
+                "source": "one",
+                "edge": "see",
+                "target": "decay",
+                "count": 3,
+                "book": "Acts",
+                "prob_consequent": 0.004540295119182747,
+                "prob_antecedent": 0.00340522133938706,
+                "joint_prob": 0.00340522133938706,
+                "confidence": 1.0,
+                "lift": 220.25
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "one",
+                "edge": "see",
+                "target": "decay",
+                "count": 3,
+                "book": "Acts",
+                "prob_consequent": 0.004540295119182747,
+                "prob_antecedent": 0.00340522133938706,
+                "joint_prob": 0.00340522133938706,
+                "confidence": 1.0,
+                "lift": 220.25
+            },
+            {
+                "source": "they",
+                "edge": "receive",
+                "target": "spirit",
+                "count": 3,
+                "book": "Acts",
+                "prob_consequent": 0.011350737797956867,
+                "prob_antecedent": 0.0056753688989784334,
+                "joint_prob": 0.00340522133938706,
+                "confidence": 0.6,
+                "lift": 52.86
+            },
+            {
+                "source": "paul",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "Acts",
+                "prob_consequent": 0.0340522133938706,
+                "prob_antecedent": 0.00340522133938706,
+                "joint_prob": 0.00340522133938706,
+                "confidence": 1.0,
+                "lift": 29.366666666666667
+            },
+            {
+                "source": "you",
+                "edge": "persecute",
+                "target": "whom",
+                "count": 3,
+                "book": "Acts",
+                "prob_consequent": 0.019296254256526674,
+                "prob_antecedent": 0.00681044267877412,
+                "joint_prob": 0.00340522133938706,
+                "confidence": 0.5,
+                "lift": 25.911764705882355
+            },
+            {
+                "source": "he",
+                "edge": "say",
+                "target": "this",
+                "count": 6,
+                "book": "Acts",
+                "prob_consequent": 0.036322360953461974,
+                "prob_antecedent": 0.009080590238365494,
+                "joint_prob": 0.00681044267877412,
+                "confidence": 0.75,
+                "lift": 20.6484375
+            }
+        ]
+    },
+    "Amos": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 14,
+                "book": "Amos",
+                "prob_consequent": 0.10112359550561797,
+                "prob_antecedent": 0.07865168539325842,
+                "joint_prob": 0.07865168539325842,
+                "confidence": 1.0,
+                "lift": 9.88888888888889
+            },
+            {
+                "source": "that",
+                "edge": "consume",
+                "target": "fortress",
+                "count": 7,
+                "book": "Amos",
+                "prob_consequent": 0.03932584269662921,
+                "prob_antecedent": 0.03932584269662921,
+                "joint_prob": 0.03932584269662921,
+                "confidence": 1.0,
+                "lift": 25.42857142857143
+            },
+            {
+                "source": "i",
+                "edge": "send",
+                "target": "fire",
+                "count": 6,
+                "book": "Amos",
+                "prob_consequent": 0.03932584269662921,
+                "prob_antecedent": 0.056179775280898875,
+                "joint_prob": 0.033707865168539325,
+                "confidence": 0.6,
+                "lift": 15.257142857142856
+            },
+            {
+                "source": "lord",
+                "edge": "show",
+                "target": "i",
+                "count": 3,
+                "book": "Amos",
+                "prob_consequent": 0.033707865168539325,
+                "prob_antecedent": 0.016853932584269662,
+                "joint_prob": 0.016853932584269662,
+                "confidence": 1.0,
+                "lift": 29.666666666666668
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "lord",
+                "edge": "show",
+                "target": "i",
+                "count": 3,
+                "book": "Amos",
+                "prob_consequent": 0.033707865168539325,
+                "prob_antecedent": 0.016853932584269662,
+                "joint_prob": 0.016853932584269662,
+                "confidence": 1.0,
+                "lift": 29.666666666666668
+            },
+            {
+                "source": "that",
+                "edge": "consume",
+                "target": "fortress",
+                "count": 7,
+                "book": "Amos",
+                "prob_consequent": 0.03932584269662921,
+                "prob_antecedent": 0.03932584269662921,
+                "joint_prob": 0.03932584269662921,
+                "confidence": 1.0,
+                "lift": 25.42857142857143
+            },
+            {
+                "source": "i",
+                "edge": "send",
+                "target": "fire",
+                "count": 6,
+                "book": "Amos",
+                "prob_consequent": 0.03932584269662921,
+                "prob_antecedent": 0.056179775280898875,
+                "joint_prob": 0.033707865168539325,
+                "confidence": 0.6,
+                "lift": 15.257142857142856
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 14,
+                "book": "Amos",
+                "prob_consequent": 0.10112359550561797,
+                "prob_antecedent": 0.07865168539325842,
+                "joint_prob": 0.07865168539325842,
+                "confidence": 1.0,
+                "lift": 9.88888888888889
+            }
+        ]
+    },
+    "Daniel": {
+        "by_count": [
+            {
+                "source": "it",
+                "edge": "mean",
+                "target": "what",
+                "count": 7,
+                "book": "Daniel",
+                "prob_consequent": 0.05649717514124294,
+                "prob_antecedent": 0.01977401129943503,
+                "joint_prob": 0.01977401129943503,
+                "confidence": 1.0,
+                "lift": 17.7
+            },
+            {
+                "source": "that",
+                "edge": "cause",
+                "target": "desolation",
+                "count": 4,
+                "book": "Daniel",
+                "prob_consequent": 0.011299435028248588,
+                "prob_antecedent": 0.011299435028248588,
+                "joint_prob": 0.011299435028248588,
+                "confidence": 1.0,
+                "lift": 88.5
+            },
+            {
+                "source": "we",
+                "edge": "interpret",
+                "target": "it",
+                "count": 3,
+                "book": "Daniel",
+                "prob_consequent": 0.03672316384180791,
+                "prob_antecedent": 0.00847457627118644,
+                "joint_prob": 0.00847457627118644,
+                "confidence": 1.0,
+                "lift": 27.23076923076923
+            },
+            {
+                "source": "nebuchadnezzar",
+                "edge": "set",
+                "target": "that",
+                "count": 3,
+                "book": "Daniel",
+                "prob_consequent": 0.025423728813559324,
+                "prob_antecedent": 0.00847457627118644,
+                "joint_prob": 0.00847457627118644,
+                "confidence": 1.0,
+                "lift": 39.33333333333333
+            },
+            {
+                "source": "vision",
+                "edge": "concern",
+                "target": "time",
+                "count": 3,
+                "book": "Daniel",
+                "prob_consequent": 0.011299435028248588,
+                "prob_antecedent": 0.00847457627118644,
+                "joint_prob": 0.00847457627118644,
+                "confidence": 1.0,
+                "lift": 88.5
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "vision",
+                "edge": "concern",
+                "target": "time",
+                "count": 3,
+                "book": "Daniel",
+                "prob_consequent": 0.011299435028248588,
+                "prob_antecedent": 0.00847457627118644,
+                "joint_prob": 0.00847457627118644,
+                "confidence": 1.0,
+                "lift": 88.5
+            },
+            {
+                "source": "that",
+                "edge": "cause",
+                "target": "desolation",
+                "count": 4,
+                "book": "Daniel",
+                "prob_consequent": 0.011299435028248588,
+                "prob_antecedent": 0.011299435028248588,
+                "joint_prob": 0.011299435028248588,
+                "confidence": 1.0,
+                "lift": 88.5
+            },
+            {
+                "source": "nebuchadnezzar",
+                "edge": "set",
+                "target": "that",
+                "count": 3,
+                "book": "Daniel",
+                "prob_consequent": 0.025423728813559324,
+                "prob_antecedent": 0.00847457627118644,
+                "joint_prob": 0.00847457627118644,
+                "confidence": 1.0,
+                "lift": 39.33333333333333
+            },
+            {
+                "source": "we",
+                "edge": "interpret",
+                "target": "it",
+                "count": 3,
+                "book": "Daniel",
+                "prob_consequent": 0.03672316384180791,
+                "prob_antecedent": 0.00847457627118644,
+                "joint_prob": 0.00847457627118644,
+                "confidence": 1.0,
+                "lift": 27.23076923076923
+            },
+            {
+                "source": "it",
+                "edge": "mean",
+                "target": "what",
+                "count": 7,
+                "book": "Daniel",
+                "prob_consequent": 0.05649717514124294,
+                "prob_antecedent": 0.01977401129943503,
+                "joint_prob": 0.01977401129943503,
+                "confidence": 1.0,
+                "lift": 17.7
+            }
+        ]
+    },
+    "Deuteronomy": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "give",
+                "target": "you",
+                "count": 37,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.1947069943289225,
+                "prob_antecedent": 0.052930056710775046,
+                "joint_prob": 0.03497164461247637,
+                "confidence": 0.6607142857142857,
+                "lift": 3.393377253814147
+            },
+            {
+                "source": "i",
+                "edge": "give",
+                "target": "you",
+                "count": 23,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.1947069943289225,
+                "prob_antecedent": 0.04064272211720227,
+                "joint_prob": 0.021739130434782608,
+                "confidence": 0.5348837209302325,
+                "lift": 2.747121246331
+            },
+            {
+                "source": "i",
+                "edge": "command",
+                "target": "you",
+                "count": 18,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.1947069943289225,
+                "prob_antecedent": 0.020793950850661626,
+                "joint_prob": 0.017013232514177693,
+                "confidence": 0.8181818181818181,
+                "lift": 4.202118270079435
+            },
+            {
+                "source": "you",
+                "edge": "cross",
+                "target": "jordan",
+                "count": 13,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.015122873345935728,
+                "prob_antecedent": 0.012287334593572778,
+                "joint_prob": 0.012287334593572778,
+                "confidence": 1.0,
+                "lift": 66.125
+            },
+            {
+                "source": "lord",
+                "edge": "bless",
+                "target": "you",
+                "count": 13,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.1947069943289225,
+                "prob_antecedent": 0.013232514177693762,
+                "joint_prob": 0.012287334593572778,
+                "confidence": 0.9285714285714285,
+                "lift": 4.7690707350901524
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "hide",
+                "target": "face",
+                "count": 3,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.002835538752362949,
+                "prob_antecedent": 0.002835538752362949,
+                "joint_prob": 0.002835538752362949,
+                "confidence": 1.0,
+                "lift": 352.66666666666663
+            },
+            {
+                "source": "you",
+                "edge": "build",
+                "target": "house",
+                "count": 3,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.004725897920604915,
+                "prob_antecedent": 0.002835538752362949,
+                "joint_prob": 0.002835538752362949,
+                "confidence": 1.0,
+                "lift": 211.6
+            },
+            {
+                "source": "you",
+                "edge": "reach",
+                "target": "place",
+                "count": 3,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.003780718336483932,
+                "prob_antecedent": 0.003780718336483932,
+                "joint_prob": 0.002835538752362949,
+                "confidence": 0.75,
+                "lift": 198.375
+            },
+            {
+                "source": "we",
+                "edge": "hear",
+                "target": "voice",
+                "count": 3,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.007561436672967864,
+                "prob_antecedent": 0.002835538752362949,
+                "joint_prob": 0.002835538752362949,
+                "confidence": 1.0,
+                "lift": 132.25
+            },
+            {
+                "source": "you",
+                "edge": "know",
+                "target": "which",
+                "count": 3,
+                "book": "Deuteronomy",
+                "prob_consequent": 0.006616257088846881,
+                "prob_antecedent": 0.004725897920604915,
+                "joint_prob": 0.002835538752362949,
+                "confidence": 0.6000000000000001,
+                "lift": 90.6857142857143
+            }
+        ]
+    },
+    "Ecclesiastes": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "apply",
+                "target": "mind",
+                "count": 3,
+                "book": "Ecclesiastes",
+                "prob_consequent": 0.01932367149758454,
+                "prob_antecedent": 0.01932367149758454,
+                "joint_prob": 0.014492753623188406,
+                "confidence": 0.75,
+                "lift": 38.8125
+            },
+            {
+                "source": "i",
+                "edge": "see",
+                "target": "something",
+                "count": 3,
+                "book": "Ecclesiastes",
+                "prob_consequent": 0.014492753623188406,
+                "prob_antecedent": 0.06280193236714976,
+                "joint_prob": 0.014492753623188406,
+                "confidence": 0.23076923076923075,
+                "lift": 15.923076923076922
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "apply",
+                "target": "mind",
+                "count": 3,
+                "book": "Ecclesiastes",
+                "prob_consequent": 0.01932367149758454,
+                "prob_antecedent": 0.01932367149758454,
+                "joint_prob": 0.014492753623188406,
+                "confidence": 0.75,
+                "lift": 38.8125
+            },
+            {
+                "source": "i",
+                "edge": "see",
+                "target": "something",
+                "count": 3,
+                "book": "Ecclesiastes",
+                "prob_consequent": 0.014492753623188406,
+                "prob_antecedent": 0.06280193236714976,
+                "joint_prob": 0.014492753623188406,
+                "confidence": 0.23076923076923075,
+                "lift": 15.923076923076922
+            }
+        ]
+    },
+    "Esther": {
+        "by_count": [
+            {
+                "source": "it",
+                "edge": "please",
+                "target": "king",
+                "count": 6,
+                "book": "Esther",
+                "prob_consequent": 0.05325443786982249,
+                "prob_antecedent": 0.04142011834319527,
+                "joint_prob": 0.03550295857988166,
+                "confidence": 0.8571428571428571,
+                "lift": 16.095238095238095
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "it",
+                "edge": "please",
+                "target": "king",
+                "count": 6,
+                "book": "Esther",
+                "prob_consequent": 0.05325443786982249,
+                "prob_antecedent": 0.04142011834319527,
+                "joint_prob": 0.03550295857988166,
+                "confidence": 0.8571428571428571,
+                "lift": 16.095238095238095
+            }
+        ]
+    },
+    "Exodus": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "command",
+                "target": "moses",
+                "count": 14,
+                "book": "Exodus",
+                "prob_consequent": 0.0254841997961264,
+                "prob_antecedent": 0.03058103975535168,
+                "joint_prob": 0.014271151885830785,
+                "confidence": 0.4666666666666667,
+                "lift": 18.312
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 10,
+                "book": "Exodus",
+                "prob_consequent": 0.03363914373088685,
+                "prob_antecedent": 0.010193679918450561,
+                "joint_prob": 0.010193679918450561,
+                "confidence": 1.0,
+                "lift": 29.72727272727273
+            },
+            {
+                "source": "lord",
+                "edge": "command",
+                "target": "he",
+                "count": 9,
+                "book": "Exodus",
+                "prob_consequent": 0.0326197757390418,
+                "prob_antecedent": 0.03058103975535168,
+                "joint_prob": 0.009174311926605505,
+                "confidence": 0.30000000000000004,
+                "lift": 9.196875
+            },
+            {
+                "source": "i",
+                "edge": "command",
+                "target": "you",
+                "count": 7,
+                "book": "Exodus",
+                "prob_consequent": 0.06422018348623854,
+                "prob_antecedent": 0.00815494393476045,
+                "joint_prob": 0.007135575942915392,
+                "confidence": 0.8749999999999999,
+                "lift": 13.624999999999998
+            },
+            {
+                "source": "they",
+                "edge": "worship",
+                "target": "i",
+                "count": 6,
+                "book": "Exodus",
+                "prob_consequent": 0.029561671763506627,
+                "prob_antecedent": 0.007135575942915392,
+                "joint_prob": 0.0061162079510703364,
+                "confidence": 0.8571428571428572,
+                "lift": 28.995073891625616
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "we",
+                "edge": "take",
+                "target": "journey",
+                "count": 3,
+                "book": "Exodus",
+                "prob_consequent": 0.0030581039755351682,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 327.0
+            },
+            {
+                "source": "magician",
+                "edge": "do",
+                "target": "thing",
+                "count": 3,
+                "book": "Exodus",
+                "prob_consequent": 0.004077471967380225,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 245.24999999999997
+            },
+            {
+                "source": "i",
+                "edge": "gain",
+                "target": "glory",
+                "count": 3,
+                "book": "Exodus",
+                "prob_consequent": 0.004077471967380225,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 245.24999999999997
+            },
+            {
+                "source": "he",
+                "edge": "hear",
+                "target": "grumbling",
+                "count": 3,
+                "book": "Exodus",
+                "prob_consequent": 0.004077471967380225,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 245.24999999999997
+            },
+            {
+                "source": "moses",
+                "edge": "leave",
+                "target": "pharaoh",
+                "count": 5,
+                "book": "Exodus",
+                "prob_consequent": 0.009174311926605505,
+                "prob_antecedent": 0.0050968399592252805,
+                "joint_prob": 0.0050968399592252805,
+                "confidence": 1.0,
+                "lift": 109.0
+            }
+        ]
+    },
+    "Ezekiel": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 125,
+                "book": "Ezekiel",
+                "prob_consequent": 0.11476664116296863,
+                "prob_antecedent": 0.09563886763580719,
+                "joint_prob": 0.09563886763580719,
+                "confidence": 1.0,
+                "lift": 8.713333333333333
+            },
+            {
+                "source": "he",
+                "edge": "bring",
+                "target": "i",
+                "count": 11,
+                "book": "Ezekiel",
+                "prob_consequent": 0.036725325172149964,
+                "prob_antecedent": 0.008416220351951033,
+                "joint_prob": 0.008416220351951033,
+                "confidence": 1.0,
+                "lift": 27.229166666666664
+            },
+            {
+                "source": "i",
+                "edge": "bring",
+                "target": "you",
+                "count": 11,
+                "book": "Ezekiel",
+                "prob_consequent": 0.07880642693190512,
+                "prob_antecedent": 0.03136954858454476,
+                "joint_prob": 0.008416220351951033,
+                "confidence": 0.2682926829268293,
+                "lift": 3.4044518115084066
+            },
+            {
+                "source": "i",
+                "edge": "bring",
+                "target": "they",
+                "count": 11,
+                "book": "Ezekiel",
+                "prob_consequent": 0.060443764345830146,
+                "prob_antecedent": 0.03136954858454476,
+                "joint_prob": 0.008416220351951033,
+                "confidence": 0.2682926829268293,
+                "lift": 4.438715652979314
+            },
+            {
+                "source": "i",
+                "edge": "pour",
+                "target": "wrath",
+                "count": 10,
+                "book": "Ezekiel",
+                "prob_consequent": 0.008416220351951033,
+                "prob_antecedent": 0.009181331293037491,
+                "joint_prob": 0.0076511094108645756,
+                "confidence": 0.8333333333333333,
+                "lift": 99.0151515151515
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "display",
+                "target": "glory",
+                "count": 3,
+                "book": "Ezekiel",
+                "prob_consequent": 0.0022953328232593728,
+                "prob_antecedent": 0.0022953328232593728,
+                "joint_prob": 0.0022953328232593728,
+                "confidence": 1.0,
+                "lift": 435.66666666666663
+            },
+            {
+                "source": "he",
+                "edge": "commit",
+                "target": "robbery",
+                "count": 3,
+                "book": "Ezekiel",
+                "prob_consequent": 0.0022953328232593728,
+                "prob_antecedent": 0.0022953328232593728,
+                "joint_prob": 0.0022953328232593728,
+                "confidence": 1.0,
+                "lift": 435.66666666666663
+            },
+            {
+                "source": "tree",
+                "edge": "decorate",
+                "target": "jamb",
+                "count": 3,
+                "book": "Ezekiel",
+                "prob_consequent": 0.00306044376434583,
+                "prob_antecedent": 0.0022953328232593728,
+                "joint_prob": 0.0022953328232593728,
+                "confidence": 1.0,
+                "lift": 326.75
+            },
+            {
+                "source": "gateway",
+                "edge": "have",
+                "target": "opening",
+                "count": 3,
+                "book": "Ezekiel",
+                "prob_consequent": 0.00306044376434583,
+                "prob_antecedent": 0.0022953328232593728,
+                "joint_prob": 0.0022953328232593728,
+                "confidence": 1.0,
+                "lift": 326.75
+            },
+            {
+                "source": "cherubim",
+                "edge": "spread",
+                "target": "wing",
+                "count": 3,
+                "book": "Ezekiel",
+                "prob_consequent": 0.0038255547054322878,
+                "prob_antecedent": 0.0022953328232593728,
+                "joint_prob": 0.0022953328232593728,
+                "confidence": 1.0,
+                "lift": 261.4
+            }
+        ]
+    },
+    "Genesis": {
+        "by_count": [
+            {
+                "source": "she",
+                "edge": "give",
+                "target": "birth",
+                "count": 11,
+                "book": "Genesis",
+                "prob_consequent": 0.012082444918265814,
+                "prob_antecedent": 0.011371712864250177,
+                "joint_prob": 0.007818052594171997,
+                "confidence": 0.6875,
+                "lift": 56.900735294117645
+            },
+            {
+                "source": "she",
+                "edge": "name",
+                "target": "he",
+                "count": 11,
+                "book": "Genesis",
+                "prob_consequent": 0.09168443496801706,
+                "prob_antecedent": 0.008528784648187633,
+                "joint_prob": 0.007818052594171997,
+                "confidence": 0.9166666666666666,
+                "lift": 9.998062015503875
+            },
+            {
+                "source": "i",
+                "edge": "give",
+                "target": "land",
+                "count": 8,
+                "book": "Genesis",
+                "prob_consequent": 0.008528784648187633,
+                "prob_antecedent": 0.021321961620469083,
+                "joint_prob": 0.005685856432125089,
+                "confidence": 0.26666666666666666,
+                "lift": 31.266666666666666
+            },
+            {
+                "source": "i",
+                "edge": "find",
+                "target": "favor",
+                "count": 8,
+                "book": "Genesis",
+                "prob_consequent": 0.008528784648187633,
+                "prob_antecedent": 0.008528784648187633,
+                "joint_prob": 0.005685856432125089,
+                "confidence": 0.6666666666666666,
+                "lift": 78.16666666666666
+            },
+            {
+                "source": "you",
+                "edge": "tell",
+                "target": "i",
+                "count": 7,
+                "book": "Genesis",
+                "prob_consequent": 0.04051172707889126,
+                "prob_antecedent": 0.006396588486140725,
+                "joint_prob": 0.004975124378109453,
+                "confidence": 0.7777777777777778,
+                "lift": 19.198830409356724
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "he",
+                "edge": "throw",
+                "target": "arm",
+                "count": 3,
+                "book": "Genesis",
+                "prob_consequent": 0.0021321961620469083,
+                "prob_antecedent": 0.0021321961620469083,
+                "joint_prob": 0.0021321961620469083,
+                "confidence": 1.0,
+                "lift": 469.0
+            },
+            {
+                "source": "i",
+                "edge": "demand",
+                "target": "accounting",
+                "count": 3,
+                "book": "Genesis",
+                "prob_consequent": 0.0028429282160625444,
+                "prob_antecedent": 0.0021321961620469083,
+                "joint_prob": 0.0021321961620469083,
+                "confidence": 1.0,
+                "lift": 351.75
+            },
+            {
+                "source": "father",
+                "edge": "drink",
+                "target": "wine",
+                "count": 3,
+                "book": "Genesis",
+                "prob_consequent": 0.0035536602700781805,
+                "prob_antecedent": 0.0021321961620469083,
+                "joint_prob": 0.0021321961620469083,
+                "confidence": 1.0,
+                "lift": 281.4
+            },
+            {
+                "source": "he",
+                "edge": "pitch",
+                "target": "tent",
+                "count": 3,
+                "book": "Genesis",
+                "prob_consequent": 0.0035536602700781805,
+                "prob_antecedent": 0.0021321961620469083,
+                "joint_prob": 0.0021321961620469083,
+                "confidence": 1.0,
+                "lift": 281.4
+            },
+            {
+                "source": "i",
+                "edge": "bury",
+                "target": "dead",
+                "count": 3,
+                "book": "Genesis",
+                "prob_consequent": 0.0021321961620469083,
+                "prob_antecedent": 0.0035536602700781805,
+                "joint_prob": 0.0021321961620469083,
+                "confidence": 0.6,
+                "lift": 281.4
+            }
+        ]
+    },
+    "Haggai": {
+        "by_count": [
+            {
+                "source": "almighty",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "Haggai",
+                "prob_consequent": 0.21212121212121213,
+                "prob_antecedent": 0.12121212121212122,
+                "joint_prob": 0.12121212121212122,
+                "confidence": 1.0,
+                "lift": 4.714285714285714
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "almighty",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "Haggai",
+                "prob_consequent": 0.21212121212121213,
+                "prob_antecedent": 0.12121212121212122,
+                "joint_prob": 0.12121212121212122,
+                "confidence": 1.0,
+                "lift": 4.714285714285714
+            }
+        ]
+    },
+    "Hebrews": {
+        "by_count": [
+            {
+                "source": "they",
+                "edge": "enter",
+                "target": "rest",
+                "count": 4,
+                "book": "Hebrews",
+                "prob_consequent": 0.03076923076923077,
+                "prob_antecedent": 0.015384615384615385,
+                "joint_prob": 0.015384615384615385,
+                "confidence": 1.0,
+                "lift": 32.5
+            },
+            {
+                "source": "you",
+                "edge": "hear",
+                "target": "voice",
+                "count": 3,
+                "book": "Hebrews",
+                "prob_consequent": 0.011538461538461539,
+                "prob_antecedent": 0.011538461538461539,
+                "joint_prob": 0.011538461538461539,
+                "confidence": 1.0,
+                "lift": 86.66666666666666
+            },
+            {
+                "source": "we",
+                "edge": "have",
+                "target": "priest",
+                "count": 3,
+                "book": "Hebrews",
+                "prob_consequent": 0.011538461538461539,
+                "prob_antecedent": 0.04230769230769231,
+                "joint_prob": 0.011538461538461539,
+                "confidence": 0.2727272727272727,
+                "lift": 23.636363636363633
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "you",
+                "edge": "hear",
+                "target": "voice",
+                "count": 3,
+                "book": "Hebrews",
+                "prob_consequent": 0.011538461538461539,
+                "prob_antecedent": 0.011538461538461539,
+                "joint_prob": 0.011538461538461539,
+                "confidence": 1.0,
+                "lift": 86.66666666666666
+            },
+            {
+                "source": "they",
+                "edge": "enter",
+                "target": "rest",
+                "count": 4,
+                "book": "Hebrews",
+                "prob_consequent": 0.03076923076923077,
+                "prob_antecedent": 0.015384615384615385,
+                "joint_prob": 0.015384615384615385,
+                "confidence": 1.0,
+                "lift": 32.5
+            },
+            {
+                "source": "we",
+                "edge": "have",
+                "target": "priest",
+                "count": 3,
+                "book": "Hebrews",
+                "prob_consequent": 0.011538461538461539,
+                "prob_antecedent": 0.04230769230769231,
+                "joint_prob": 0.011538461538461539,
+                "confidence": 0.2727272727272727,
+                "lift": 23.636363636363633
+            }
+        ]
+    },
+    "Hosea": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "show",
+                "target": "love",
+                "count": 4,
+                "book": "Hosea",
+                "prob_consequent": 0.016194331983805668,
+                "prob_antecedent": 0.016194331983805668,
+                "joint_prob": 0.016194331983805668,
+                "confidence": 1.0,
+                "lift": 61.75
+            },
+            {
+                "source": "i",
+                "edge": "betroth",
+                "target": "you",
+                "count": 3,
+                "book": "Hosea",
+                "prob_consequent": 0.044534412955465584,
+                "prob_antecedent": 0.012145748987854251,
+                "joint_prob": 0.012145748987854251,
+                "confidence": 1.0,
+                "lift": 22.454545454545457
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "show",
+                "target": "love",
+                "count": 4,
+                "book": "Hosea",
+                "prob_consequent": 0.016194331983805668,
+                "prob_antecedent": 0.016194331983805668,
+                "joint_prob": 0.016194331983805668,
+                "confidence": 1.0,
+                "lift": 61.75
+            },
+            {
+                "source": "i",
+                "edge": "betroth",
+                "target": "you",
+                "count": 3,
+                "book": "Hosea",
+                "prob_consequent": 0.044534412955465584,
+                "prob_antecedent": 0.012145748987854251,
+                "joint_prob": 0.012145748987854251,
+                "confidence": 1.0,
+                "lift": 22.454545454545457
+            }
+        ]
+    },
+    "Isaiah": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 41,
+                "book": "Isaiah",
+                "prob_consequent": 0.06546762589928058,
+                "prob_antecedent": 0.029496402877697843,
+                "joint_prob": 0.029496402877697843,
+                "confidence": 1.0,
+                "lift": 15.274725274725274
+            },
+            {
+                "source": "i",
+                "edge": "choose",
+                "target": "whom",
+                "count": 4,
+                "book": "Isaiah",
+                "prob_consequent": 0.008633093525179856,
+                "prob_antecedent": 0.004316546762589928,
+                "joint_prob": 0.0028776978417266188,
+                "confidence": 0.6666666666666667,
+                "lift": 77.22222222222223
+            },
+            {
+                "source": "he",
+                "edge": "strike",
+                "target": "they",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.07410071942446043,
+                "prob_antecedent": 0.004316546762589928,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 0.5,
+                "lift": 6.747572815533981
+            },
+            {
+                "source": "i",
+                "edge": "tell",
+                "target": "you",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.07841726618705036,
+                "prob_antecedent": 0.0028776978417266188,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 0.75,
+                "lift": 9.564220183486238
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "this",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.01079136690647482,
+                "prob_antecedent": 0.005035971223021582,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 0.4285714285714286,
+                "lift": 39.714285714285715
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "who",
+                "edge": "bring",
+                "target": "news",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.002158273381294964,
+                "prob_antecedent": 0.006474820143884892,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 0.3333333333333333,
+                "lift": 154.44444444444443
+            },
+            {
+                "source": "you",
+                "edge": "enlarge",
+                "target": "nation",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.008633093525179856,
+                "prob_antecedent": 0.002158273381294964,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 1.0,
+                "lift": 115.83333333333334
+            },
+            {
+                "source": "i",
+                "edge": "choose",
+                "target": "whom",
+                "count": 4,
+                "book": "Isaiah",
+                "prob_consequent": 0.008633093525179856,
+                "prob_antecedent": 0.004316546762589928,
+                "joint_prob": 0.0028776978417266188,
+                "confidence": 0.6666666666666667,
+                "lift": 77.22222222222223
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "this",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.01079136690647482,
+                "prob_antecedent": 0.005035971223021582,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 0.4285714285714286,
+                "lift": 39.714285714285715
+            },
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "Isaiah",
+                "prob_consequent": 0.06546762589928058,
+                "prob_antecedent": 0.002158273381294964,
+                "joint_prob": 0.002158273381294964,
+                "confidence": 1.0,
+                "lift": 15.274725274725274
+            }
+        ]
+    },
+    "Jeremiah": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 97,
+                "book": "Jeremiah",
+                "prob_consequent": 0.12332268370607029,
+                "prob_antecedent": 0.061980830670926516,
+                "joint_prob": 0.061980830670926516,
+                "confidence": 1.0,
+                "lift": 8.10880829015544
+            },
+            {
+                "source": "almighty",
+                "edge": "say",
+                "target": "what",
+                "count": 46,
+                "book": "Jeremiah",
+                "prob_consequent": 0.12332268370607029,
+                "prob_antecedent": 0.030031948881789138,
+                "joint_prob": 0.02939297124600639,
+                "confidence": 0.9787234042553191,
+                "lift": 7.936280454194686
+            },
+            {
+                "source": "i",
+                "edge": "bring",
+                "target": "they",
+                "count": 12,
+                "book": "Jeremiah",
+                "prob_consequent": 0.07284345047923323,
+                "prob_antecedent": 0.03194888178913738,
+                "joint_prob": 0.0076677316293929714,
+                "confidence": 0.24000000000000002,
+                "lift": 3.2947368421052636
+            },
+            {
+                "source": "i",
+                "edge": "bring",
+                "target": "disaster",
+                "count": 7,
+                "book": "Jeremiah",
+                "prob_consequent": 0.009584664536741214,
+                "prob_antecedent": 0.03194888178913738,
+                "joint_prob": 0.0044728434504792336,
+                "confidence": 0.14,
+                "lift": 14.60666666666667
+            },
+            {
+                "source": "i",
+                "edge": "restore",
+                "target": "fortune",
+                "count": 7,
+                "book": "Jeremiah",
+                "prob_consequent": 0.0044728434504792336,
+                "prob_antecedent": 0.006389776357827476,
+                "joint_prob": 0.0044728434504792336,
+                "confidence": 0.7000000000000001,
+                "lift": 156.5
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "they",
+                "edge": "commit",
+                "target": "adultery",
+                "count": 3,
+                "book": "Jeremiah",
+                "prob_consequent": 0.0019169329073482429,
+                "prob_antecedent": 0.0019169329073482429,
+                "joint_prob": 0.0019169329073482429,
+                "confidence": 1.0,
+                "lift": 521.6666666666666
+            },
+            {
+                "source": "i",
+                "edge": "avenge",
+                "target": "myself",
+                "count": 3,
+                "book": "Jeremiah",
+                "prob_consequent": 0.0019169329073482429,
+                "prob_antecedent": 0.0019169329073482429,
+                "joint_prob": 0.0019169329073482429,
+                "confidence": 1.0,
+                "lift": 521.6666666666666
+            },
+            {
+                "source": "it",
+                "edge": "enter",
+                "target": "mind",
+                "count": 4,
+                "book": "Jeremiah",
+                "prob_consequent": 0.003194888178913738,
+                "prob_antecedent": 0.0025559105431309905,
+                "joint_prob": 0.0025559105431309905,
+                "confidence": 1.0,
+                "lift": 313.0
+            },
+            {
+                "source": "who",
+                "edge": "draw",
+                "target": "bow",
+                "count": 3,
+                "book": "Jeremiah",
+                "prob_consequent": 0.0025559105431309905,
+                "prob_antecedent": 0.0025559105431309905,
+                "joint_prob": 0.0019169329073482429,
+                "confidence": 0.75,
+                "lift": 293.4375
+            },
+            {
+                "source": "who",
+                "edge": "bring",
+                "target": "israelites",
+                "count": 3,
+                "book": "Jeremiah",
+                "prob_consequent": 0.0025559105431309905,
+                "prob_antecedent": 0.0044728434504792336,
+                "joint_prob": 0.0019169329073482429,
+                "confidence": 0.42857142857142855,
+                "lift": 167.67857142857142
+            }
+        ]
+    },
+    "Job": {
+        "by_count": [
+            {
+                "source": "you",
+                "edge": "know",
+                "target": "what",
+                "count": 4,
+                "book": "Job",
+                "prob_consequent": 0.048672566371681415,
+                "prob_antecedent": 0.00995575221238938,
+                "joint_prob": 0.004424778761061947,
+                "confidence": 0.4444444444444444,
+                "lift": 9.131313131313131
+            },
+            {
+                "source": "i",
+                "edge": "know",
+                "target": "what",
+                "count": 4,
+                "book": "Job",
+                "prob_consequent": 0.048672566371681415,
+                "prob_antecedent": 0.004424778761061947,
+                "joint_prob": 0.004424778761061947,
+                "confidence": 1.0,
+                "lift": 20.545454545454547
+            },
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.048672566371681415,
+                "prob_antecedent": 0.004424778761061947,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 0.75,
+                "lift": 15.40909090909091
+            },
+            {
+                "source": "i",
+                "edge": "see",
+                "target": "he",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.06747787610619468,
+                "prob_antecedent": 0.007743362831858407,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 0.42857142857142855,
+                "lift": 6.351288056206089
+            },
+            {
+                "source": "eye",
+                "edge": "see",
+                "target": "i",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.1006637168141593,
+                "prob_antecedent": 0.011061946902654867,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 0.3,
+                "lift": 2.98021978021978
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "question",
+                "target": "you",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.046460176991150445,
+                "prob_antecedent": 0.00331858407079646,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 1.0,
+                "lift": 21.523809523809522
+            },
+            {
+                "source": "i",
+                "edge": "tell",
+                "target": "you",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.046460176991150445,
+                "prob_antecedent": 0.00331858407079646,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 1.0,
+                "lift": 21.523809523809522
+            },
+            {
+                "source": "i",
+                "edge": "know",
+                "target": "what",
+                "count": 4,
+                "book": "Job",
+                "prob_consequent": 0.048672566371681415,
+                "prob_antecedent": 0.004424778761061947,
+                "joint_prob": 0.004424778761061947,
+                "confidence": 1.0,
+                "lift": 20.545454545454547
+            },
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.048672566371681415,
+                "prob_antecedent": 0.004424778761061947,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 0.75,
+                "lift": 15.40909090909091
+            },
+            {
+                "source": "you",
+                "edge": "answer",
+                "target": "i",
+                "count": 3,
+                "book": "Job",
+                "prob_consequent": 0.1006637168141593,
+                "prob_antecedent": 0.00331858407079646,
+                "joint_prob": 0.00331858407079646,
+                "confidence": 1.0,
+                "lift": 9.934065934065934
+            }
+        ]
+    },
+    "John": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "tell",
+                "target": "you",
+                "count": 43,
+                "book": "John",
+                "prob_consequent": 0.10295616717635066,
+                "prob_antecedent": 0.05198776758409786,
+                "joint_prob": 0.04383282364933741,
+                "confidence": 0.8431372549019608,
+                "lift": 8.189283634245777
+            },
+            {
+                "source": "who",
+                "edge": "send",
+                "target": "i",
+                "count": 23,
+                "book": "John",
+                "prob_consequent": 0.13557594291539246,
+                "prob_antecedent": 0.027522935779816515,
+                "joint_prob": 0.023445463812436288,
+                "confidence": 0.8518518518518517,
+                "lift": 6.283208020050124
+            },
+            {
+                "source": "he",
+                "edge": "say",
+                "target": "this",
+                "count": 11,
+                "book": "John",
+                "prob_consequent": 0.03058103975535168,
+                "prob_antecedent": 0.014271151885830785,
+                "joint_prob": 0.011213047910295617,
+                "confidence": 0.7857142857142857,
+                "lift": 25.692857142857143
+            },
+            {
+                "source": "you",
+                "edge": "give",
+                "target": "i",
+                "count": 11,
+                "book": "John",
+                "prob_consequent": 0.13557594291539246,
+                "prob_antecedent": 0.014271151885830785,
+                "joint_prob": 0.011213047910295617,
+                "confidence": 0.7857142857142857,
+                "lift": 5.795381310418904
+            },
+            {
+                "source": "you",
+                "edge": "love",
+                "target": "i",
+                "count": 10,
+                "book": "John",
+                "prob_consequent": 0.13557594291539246,
+                "prob_antecedent": 0.012232415902140673,
+                "joint_prob": 0.010193679918450561,
+                "confidence": 0.8333333333333334,
+                "lift": 6.146616541353383
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "find",
+                "target": "basis",
+                "count": 3,
+                "book": "John",
+                "prob_consequent": 0.0030581039755351682,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 327.0
+            },
+            {
+                "source": "ancestor",
+                "edge": "eat",
+                "target": "manna",
+                "count": 3,
+                "book": "John",
+                "prob_consequent": 0.0030581039755351682,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 327.0
+            },
+            {
+                "source": "you",
+                "edge": "bear",
+                "target": "fruit",
+                "count": 3,
+                "book": "John",
+                "prob_consequent": 0.0061162079510703364,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 163.5
+            },
+            {
+                "source": "people",
+                "edge": "see",
+                "target": "sign",
+                "count": 3,
+                "book": "John",
+                "prob_consequent": 0.013251783893985729,
+                "prob_antecedent": 0.0030581039755351682,
+                "joint_prob": 0.0030581039755351682,
+                "confidence": 1.0,
+                "lift": 75.46153846153847
+            },
+            {
+                "source": "you",
+                "edge": "ask",
+                "target": "whatever",
+                "count": 4,
+                "book": "John",
+                "prob_consequent": 0.007135575942915392,
+                "prob_antecedent": 0.009174311926605505,
+                "joint_prob": 0.004077471967380225,
+                "confidence": 0.4444444444444445,
+                "lift": 62.28571428571429
+            }
+        ]
+    },
+    "Joshua": {
+        "by_count": [
+            {
+                "source": "who",
+                "edge": "carry",
+                "target": "ark",
+                "count": 6,
+                "book": "Joshua",
+                "prob_consequent": 0.01763668430335097,
+                "prob_antecedent": 0.012345679012345678,
+                "joint_prob": 0.010582010582010581,
+                "confidence": 0.8571428571428571,
+                "lift": 48.6
+            },
+            {
+                "source": "lord",
+                "edge": "give",
+                "target": "you",
+                "count": 5,
+                "book": "Joshua",
+                "prob_consequent": 0.05291005291005291,
+                "prob_antecedent": 0.04056437389770723,
+                "joint_prob": 0.008818342151675485,
+                "confidence": 0.21739130434782608,
+                "lift": 4.108695652173913
+            },
+            {
+                "source": "moses",
+                "edge": "give",
+                "target": "you",
+                "count": 5,
+                "book": "Joshua",
+                "prob_consequent": 0.05291005291005291,
+                "prob_antecedent": 0.02292768959435626,
+                "joint_prob": 0.008818342151675485,
+                "confidence": 0.38461538461538464,
+                "lift": 7.26923076923077
+            },
+            {
+                "source": "lord",
+                "edge": "give",
+                "target": "rest",
+                "count": 5,
+                "book": "Joshua",
+                "prob_consequent": 0.014109347442680775,
+                "prob_antecedent": 0.04056437389770723,
+                "joint_prob": 0.008818342151675485,
+                "confidence": 0.21739130434782608,
+                "lift": 15.407608695652174
+            },
+            {
+                "source": "lord",
+                "edge": "give",
+                "target": "land",
+                "count": 4,
+                "book": "Joshua",
+                "prob_consequent": 0.03350970017636684,
+                "prob_antecedent": 0.04056437389770723,
+                "joint_prob": 0.007054673721340388,
+                "confidence": 0.17391304347826086,
+                "lift": 5.189931350114416
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "king",
+                "edge": "join",
+                "target": "force",
+                "count": 3,
+                "book": "Joshua",
+                "prob_consequent": 0.005291005291005291,
+                "prob_antecedent": 0.005291005291005291,
+                "joint_prob": 0.005291005291005291,
+                "confidence": 1.0,
+                "lift": 189.0
+            },
+            {
+                "source": "he",
+                "edge": "leave",
+                "target": "survivor",
+                "count": 3,
+                "book": "Joshua",
+                "prob_consequent": 0.008818342151675485,
+                "prob_antecedent": 0.007054673721340388,
+                "joint_prob": 0.005291005291005291,
+                "confidence": 0.75,
+                "lift": 85.05000000000001
+            },
+            {
+                "source": "who",
+                "edge": "carry",
+                "target": "ark",
+                "count": 6,
+                "book": "Joshua",
+                "prob_consequent": 0.01763668430335097,
+                "prob_antecedent": 0.012345679012345678,
+                "joint_prob": 0.010582010582010581,
+                "confidence": 0.8571428571428571,
+                "lift": 48.6
+            },
+            {
+                "source": "we",
+                "edge": "serve",
+                "target": "lord",
+                "count": 4,
+                "book": "Joshua",
+                "prob_consequent": 0.021164021164021163,
+                "prob_antecedent": 0.007054673721340388,
+                "joint_prob": 0.007054673721340388,
+                "confidence": 1.0,
+                "lift": 47.25
+            },
+            {
+                "source": "lord",
+                "edge": "command",
+                "target": "moses",
+                "count": 4,
+                "book": "Joshua",
+                "prob_consequent": 0.014109347442680775,
+                "prob_antecedent": 0.014109347442680775,
+                "joint_prob": 0.007054673721340388,
+                "confidence": 0.5,
+                "lift": 35.4375
+            }
+        ]
+    },
+    "Judges": {
+        "by_count": [
+            {
+                "source": "israelites",
+                "edge": "do",
+                "target": "evil",
+                "count": 7,
+                "book": "Judges",
+                "prob_consequent": 0.011494252873563218,
+                "prob_antecedent": 0.010057471264367816,
+                "joint_prob": 0.010057471264367816,
+                "confidence": 1.0,
+                "lift": 87.0
+            },
+            {
+                "source": "he",
+                "edge": "have",
+                "target": "son",
+                "count": 5,
+                "book": "Judges",
+                "prob_consequent": 0.01293103448275862,
+                "prob_antecedent": 0.011494252873563218,
+                "joint_prob": 0.007183908045977011,
+                "confidence": 0.625,
+                "lift": 48.333333333333336
+            },
+            {
+                "source": "israel",
+                "edge": "have",
+                "target": "king",
+                "count": 4,
+                "book": "Judges",
+                "prob_consequent": 0.007183908045977011,
+                "prob_antecedent": 0.005747126436781609,
+                "joint_prob": 0.005747126436781609,
+                "confidence": 1.0,
+                "lift": 139.2
+            },
+            {
+                "source": "he",
+                "edge": "sell",
+                "target": "they",
+                "count": 3,
+                "book": "Judges",
+                "prob_consequent": 0.07614942528735633,
+                "prob_antecedent": 0.004310344827586207,
+                "joint_prob": 0.004310344827586207,
+                "confidence": 1.0,
+                "lift": 13.132075471698112
+            },
+            {
+                "source": "lord",
+                "edge": "give",
+                "target": "they",
+                "count": 3,
+                "book": "Judges",
+                "prob_consequent": 0.07614942528735633,
+                "prob_antecedent": 0.01867816091954023,
+                "joint_prob": 0.004310344827586207,
+                "confidence": 0.23076923076923075,
+                "lift": 3.0304789550072564
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "land",
+                "edge": "have",
+                "target": "peace",
+                "count": 3,
+                "book": "Judges",
+                "prob_consequent": 0.005747126436781609,
+                "prob_antecedent": 0.004310344827586207,
+                "joint_prob": 0.004310344827586207,
+                "confidence": 1.0,
+                "lift": 174.0
+            },
+            {
+                "source": "you",
+                "edge": "make",
+                "target": "fool",
+                "count": 3,
+                "book": "Judges",
+                "prob_consequent": 0.004310344827586207,
+                "prob_antecedent": 0.005747126436781609,
+                "joint_prob": 0.004310344827586207,
+                "confidence": 0.75,
+                "lift": 174.0
+            },
+            {
+                "source": "israel",
+                "edge": "have",
+                "target": "king",
+                "count": 4,
+                "book": "Judges",
+                "prob_consequent": 0.007183908045977011,
+                "prob_antecedent": 0.005747126436781609,
+                "joint_prob": 0.005747126436781609,
+                "confidence": 1.0,
+                "lift": 139.2
+            },
+            {
+                "source": "israelites",
+                "edge": "do",
+                "target": "evil",
+                "count": 7,
+                "book": "Judges",
+                "prob_consequent": 0.011494252873563218,
+                "prob_antecedent": 0.010057471264367816,
+                "joint_prob": 0.010057471264367816,
+                "confidence": 1.0,
+                "lift": 87.0
+            },
+            {
+                "source": "he",
+                "edge": "tell",
+                "target": "everything",
+                "count": 3,
+                "book": "Judges",
+                "prob_consequent": 0.005747126436781609,
+                "prob_antecedent": 0.01293103448275862,
+                "joint_prob": 0.004310344827586207,
+                "confidence": 0.3333333333333333,
+                "lift": 58.0
+            }
+        ]
+    },
+    "Leviticus": {
+        "by_count": [
+            {
+                "source": "priest",
+                "edge": "make",
+                "target": "atonement",
+                "count": 11,
+                "book": "Leviticus",
+                "prob_consequent": 0.02631578947368421,
+                "prob_antecedent": 0.01608187134502924,
+                "joint_prob": 0.01608187134502924,
+                "confidence": 1.0,
+                "lift": 38.0
+            },
+            {
+                "source": "man",
+                "edge": "have",
+                "target": "relation",
+                "count": 8,
+                "book": "Leviticus",
+                "prob_consequent": 0.014619883040935672,
+                "prob_antecedent": 0.017543859649122806,
+                "joint_prob": 0.011695906432748537,
+                "confidence": 0.6666666666666666,
+                "lift": 45.6
+            },
+            {
+                "source": "lord",
+                "edge": "command",
+                "target": "moses",
+                "count": 8,
+                "book": "Leviticus",
+                "prob_consequent": 0.014619883040935672,
+                "prob_antecedent": 0.017543859649122806,
+                "joint_prob": 0.011695906432748537,
+                "confidence": 0.6666666666666666,
+                "lift": 45.6
+            },
+            {
+                "source": "they",
+                "edge": "wash",
+                "target": "clothe",
+                "count": 8,
+                "book": "Leviticus",
+                "prob_consequent": 0.03070175438596491,
+                "prob_antecedent": 0.011695906432748537,
+                "joint_prob": 0.011695906432748537,
+                "confidence": 1.0,
+                "lift": 32.57142857142858
+            },
+            {
+                "source": "anyone",
+                "edge": "wash",
+                "target": "clothe",
+                "count": 7,
+                "book": "Leviticus",
+                "prob_consequent": 0.03070175438596491,
+                "prob_antecedent": 0.01023391812865497,
+                "joint_prob": 0.01023391812865497,
+                "confidence": 1.0,
+                "lift": 32.57142857142858
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "you",
+                "edge": "deny",
+                "target": "yourself",
+                "count": 3,
+                "book": "Leviticus",
+                "prob_consequent": 0.0043859649122807015,
+                "prob_antecedent": 0.0043859649122807015,
+                "joint_prob": 0.0043859649122807015,
+                "confidence": 1.0,
+                "lift": 228.0
+            },
+            {
+                "source": "you",
+                "edge": "reap",
+                "target": "harvest",
+                "count": 3,
+                "book": "Leviticus",
+                "prob_consequent": 0.005847953216374269,
+                "prob_antecedent": 0.0043859649122807015,
+                "joint_prob": 0.0043859649122807015,
+                "confidence": 1.0,
+                "lift": 171.0
+            },
+            {
+                "source": "aaron",
+                "edge": "lay",
+                "target": "hand",
+                "count": 3,
+                "book": "Leviticus",
+                "prob_consequent": 0.005847953216374269,
+                "prob_antecedent": 0.0043859649122807015,
+                "joint_prob": 0.0043859649122807015,
+                "confidence": 1.0,
+                "lift": 171.0
+            },
+            {
+                "source": "you",
+                "edge": "remove",
+                "target": "which",
+                "count": 3,
+                "book": "Leviticus",
+                "prob_consequent": 0.008771929824561403,
+                "prob_antecedent": 0.0043859649122807015,
+                "joint_prob": 0.0043859649122807015,
+                "confidence": 1.0,
+                "lift": 114.0
+            },
+            {
+                "source": "i",
+                "edge": "set",
+                "target": "face",
+                "count": 5,
+                "book": "Leviticus",
+                "prob_consequent": 0.007309941520467836,
+                "prob_antecedent": 0.01023391812865497,
+                "joint_prob": 0.007309941520467836,
+                "confidence": 0.7142857142857143,
+                "lift": 97.71428571428572
+            }
+        ]
+    },
+    "Luke": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "tell",
+                "target": "you",
+                "count": 46,
+                "book": "Luke",
+                "prob_consequent": 0.10358565737051793,
+                "prob_antecedent": 0.046812749003984064,
+                "joint_prob": 0.045816733067729085,
+                "confidence": 0.9787234042553191,
+                "lift": 9.448445171849427
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "what",
+                "count": 8,
+                "book": "Luke",
+                "prob_consequent": 0.05776892430278884,
+                "prob_antecedent": 0.008964143426294821,
+                "joint_prob": 0.00796812749003984,
+                "confidence": 0.8888888888888888,
+                "lift": 15.386973180076629
+            },
+            {
+                "source": "he",
+                "edge": "tell",
+                "target": "parable",
+                "count": 7,
+                "book": "Luke",
+                "prob_consequent": 0.01195219123505976,
+                "prob_antecedent": 0.013944223107569721,
+                "joint_prob": 0.0069721115537848604,
+                "confidence": 0.5,
+                "lift": 41.833333333333336
+            },
+            {
+                "source": "he",
+                "edge": "ask",
+                "target": "they",
+                "count": 5,
+                "book": "Luke",
+                "prob_consequent": 0.04183266932270916,
+                "prob_antecedent": 0.008964143426294821,
+                "joint_prob": 0.0049800796812749,
+                "confidence": 0.5555555555555555,
+                "lift": 13.28042328042328
+            },
+            {
+                "source": "he",
+                "edge": "tell",
+                "target": "they",
+                "count": 5,
+                "book": "Luke",
+                "prob_consequent": 0.04183266932270916,
+                "prob_antecedent": 0.013944223107569721,
+                "joint_prob": 0.0049800796812749,
+                "confidence": 0.35714285714285715,
+                "lift": 8.537414965986395
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "drive",
+                "target": "demon",
+                "count": 3,
+                "book": "Luke",
+                "prob_consequent": 0.0069721115537848604,
+                "prob_antecedent": 0.00298804780876494,
+                "joint_prob": 0.00298804780876494,
+                "confidence": 1.0,
+                "lift": 143.42857142857144
+            },
+            {
+                "source": "who",
+                "edge": "hear",
+                "target": "word",
+                "count": 4,
+                "book": "Luke",
+                "prob_consequent": 0.01195219123505976,
+                "prob_antecedent": 0.00796812749003984,
+                "joint_prob": 0.00398406374501992,
+                "confidence": 0.5,
+                "lift": 41.833333333333336
+            },
+            {
+                "source": "he",
+                "edge": "tell",
+                "target": "parable",
+                "count": 7,
+                "book": "Luke",
+                "prob_consequent": 0.01195219123505976,
+                "prob_antecedent": 0.013944223107569721,
+                "joint_prob": 0.0069721115537848604,
+                "confidence": 0.5,
+                "lift": 41.833333333333336
+            },
+            {
+                "source": "jesus",
+                "edge": "tell",
+                "target": "parable",
+                "count": 3,
+                "book": "Luke",
+                "prob_consequent": 0.01195219123505976,
+                "prob_antecedent": 0.0069721115537848604,
+                "joint_prob": 0.00298804780876494,
+                "confidence": 0.42857142857142855,
+                "lift": 35.857142857142854
+            },
+            {
+                "source": "he",
+                "edge": "send",
+                "target": "servant",
+                "count": 3,
+                "book": "Luke",
+                "prob_consequent": 0.008964143426294821,
+                "prob_antecedent": 0.01195219123505976,
+                "joint_prob": 0.00298804780876494,
+                "confidence": 0.25,
+                "lift": 27.888888888888886
+            }
+        ]
+    },
+    "Mark": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "tell",
+                "target": "you",
+                "count": 18,
+                "book": "Mark",
+                "prob_consequent": 0.05845181674565561,
+                "prob_antecedent": 0.030015797788309637,
+                "joint_prob": 0.02843601895734597,
+                "confidence": 0.9473684210526315,
+                "lift": 16.2076813655761
+            },
+            {
+                "source": "he",
+                "edge": "give",
+                "target": "thank",
+                "count": 4,
+                "book": "Mark",
+                "prob_consequent": 0.00631911532385466,
+                "prob_antecedent": 0.022116903633491312,
+                "joint_prob": 0.00631911532385466,
+                "confidence": 0.2857142857142857,
+                "lift": 45.214285714285715
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "what",
+                "count": 4,
+                "book": "Mark",
+                "prob_consequent": 0.037914691943127965,
+                "prob_antecedent": 0.009478672985781991,
+                "joint_prob": 0.00631911532385466,
+                "confidence": 0.6666666666666666,
+                "lift": 17.583333333333332
+            },
+            {
+                "source": "he",
+                "edge": "teach",
+                "target": "they",
+                "count": 3,
+                "book": "Mark",
+                "prob_consequent": 0.0631911532385466,
+                "prob_antecedent": 0.007898894154818325,
+                "joint_prob": 0.004739336492890996,
+                "confidence": 0.6000000000000001,
+                "lift": 9.495000000000003
+            },
+            {
+                "source": "he",
+                "edge": "give",
+                "target": "order",
+                "count": 3,
+                "book": "Mark",
+                "prob_consequent": 0.007898894154818325,
+                "prob_antecedent": 0.022116903633491312,
+                "joint_prob": 0.004739336492890996,
+                "confidence": 0.2142857142857143,
+                "lift": 27.128571428571433
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "he",
+                "edge": "drive",
+                "target": "demon",
+                "count": 3,
+                "book": "Mark",
+                "prob_consequent": 0.009478672985781991,
+                "prob_antecedent": 0.004739336492890996,
+                "joint_prob": 0.004739336492890996,
+                "confidence": 1.0,
+                "lift": 105.49999999999999
+            },
+            {
+                "source": "other",
+                "edge": "hear",
+                "target": "word",
+                "count": 3,
+                "book": "Mark",
+                "prob_consequent": 0.01263823064770932,
+                "prob_antecedent": 0.004739336492890996,
+                "joint_prob": 0.004739336492890996,
+                "confidence": 1.0,
+                "lift": 79.125
+            },
+            {
+                "source": "he",
+                "edge": "give",
+                "target": "thank",
+                "count": 4,
+                "book": "Mark",
+                "prob_consequent": 0.00631911532385466,
+                "prob_antecedent": 0.022116903633491312,
+                "joint_prob": 0.00631911532385466,
+                "confidence": 0.2857142857142857,
+                "lift": 45.214285714285715
+            },
+            {
+                "source": "he",
+                "edge": "give",
+                "target": "order",
+                "count": 3,
+                "book": "Mark",
+                "prob_consequent": 0.007898894154818325,
+                "prob_antecedent": 0.022116903633491312,
+                "joint_prob": 0.004739336492890996,
+                "confidence": 0.2142857142857143,
+                "lift": 27.128571428571433
+            },
+            {
+                "source": "i",
+                "edge": "do",
+                "target": "what",
+                "count": 4,
+                "book": "Mark",
+                "prob_consequent": 0.037914691943127965,
+                "prob_antecedent": 0.009478672985781991,
+                "joint_prob": 0.00631911532385466,
+                "confidence": 0.6666666666666666,
+                "lift": 17.583333333333332
+            }
+        ]
+    },
+    "Matthew": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "tell",
+                "target": "you",
+                "count": 62,
+                "book": "Matthew",
+                "prob_consequent": 0.11170784103114931,
+                "prob_antecedent": 0.06981740064446831,
+                "joint_prob": 0.06659505907626208,
+                "confidence": 0.9538461538461538,
+                "lift": 8.538757396449704
+            },
+            {
+                "source": "crowd",
+                "edge": "follow",
+                "target": "he",
+                "count": 6,
+                "book": "Matthew",
+                "prob_consequent": 0.08163265306122448,
+                "prob_antecedent": 0.00644468313641246,
+                "joint_prob": 0.00644468313641246,
+                "confidence": 1.0,
+                "lift": 12.250000000000002
+            },
+            {
+                "source": "who",
+                "edge": "hear",
+                "target": "word",
+                "count": 5,
+                "book": "Matthew",
+                "prob_consequent": 0.013963480128893663,
+                "prob_antecedent": 0.0053705692803437165,
+                "joint_prob": 0.0053705692803437165,
+                "confidence": 1.0,
+                "lift": 71.61538461538461
+            },
+            {
+                "source": "you",
+                "edge": "think",
+                "target": "what",
+                "count": 5,
+                "book": "Matthew",
+                "prob_consequent": 0.04296455424274973,
+                "prob_antecedent": 0.0053705692803437165,
+                "joint_prob": 0.0053705692803437165,
+                "confidence": 1.0,
+                "lift": 23.275
+            },
+            {
+                "source": "he",
+                "edge": "ask",
+                "target": "they",
+                "count": 4,
+                "book": "Matthew",
+                "prob_consequent": 0.05477980665950591,
+                "prob_antecedent": 0.00644468313641246,
+                "joint_prob": 0.004296455424274973,
+                "confidence": 0.6666666666666666,
+                "lift": 12.169934640522875
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "whoever",
+                "edge": "have",
+                "target": "ear",
+                "count": 3,
+                "book": "Matthew",
+                "prob_consequent": 0.00322234156820623,
+                "prob_antecedent": 0.00322234156820623,
+                "joint_prob": 0.00322234156820623,
+                "confidence": 1.0,
+                "lift": 310.3333333333333
+            },
+            {
+                "source": "anyone",
+                "edge": "commit",
+                "target": "adultery",
+                "count": 3,
+                "book": "Matthew",
+                "prob_consequent": 0.0053705692803437165,
+                "prob_antecedent": 0.00322234156820623,
+                "joint_prob": 0.00322234156820623,
+                "confidence": 1.0,
+                "lift": 186.2
+            },
+            {
+                "source": "who",
+                "edge": "divorce",
+                "target": "wife",
+                "count": 3,
+                "book": "Matthew",
+                "prob_consequent": 0.0053705692803437165,
+                "prob_antecedent": 0.00322234156820623,
+                "joint_prob": 0.00322234156820623,
+                "confidence": 1.0,
+                "lift": 186.2
+            },
+            {
+                "source": "who",
+                "edge": "receive",
+                "target": "bag",
+                "count": 4,
+                "book": "Matthew",
+                "prob_consequent": 0.007518796992481203,
+                "prob_antecedent": 0.004296455424274973,
+                "joint_prob": 0.004296455424274973,
+                "confidence": 1.0,
+                "lift": 133.0
+            },
+            {
+                "source": "this",
+                "edge": "take",
+                "target": "place",
+                "count": 3,
+                "book": "Matthew",
+                "prob_consequent": 0.007518796992481203,
+                "prob_antecedent": 0.00322234156820623,
+                "joint_prob": 0.00322234156820623,
+                "confidence": 1.0,
+                "lift": 133.0
+            }
+        ]
+    },
+    "Nehemiah": {
+        "by_count": [
+            {
+                "source": "we",
+                "edge": "rebuild",
+                "target": "wall",
+                "count": 4,
+                "book": "Nehemiah",
+                "prob_consequent": 0.029498525073746312,
+                "prob_antecedent": 0.011799410029498525,
+                "joint_prob": 0.011799410029498525,
+                "confidence": 1.0,
+                "lift": 33.9
+            },
+            {
+                "source": "it",
+                "edge": "please",
+                "target": "king",
+                "count": 3,
+                "book": "Nehemiah",
+                "prob_consequent": 0.011799410029498525,
+                "prob_antecedent": 0.008849557522123894,
+                "joint_prob": 0.008849557522123894,
+                "confidence": 1.0,
+                "lift": 84.75
+            },
+            {
+                "source": "you",
+                "edge": "warn",
+                "target": "they",
+                "count": 3,
+                "book": "Nehemiah",
+                "prob_consequent": 0.10029498525073746,
+                "prob_antecedent": 0.008849557522123894,
+                "joint_prob": 0.008849557522123894,
+                "confidence": 1.0,
+                "lift": 9.970588235294118
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "it",
+                "edge": "please",
+                "target": "king",
+                "count": 3,
+                "book": "Nehemiah",
+                "prob_consequent": 0.011799410029498525,
+                "prob_antecedent": 0.008849557522123894,
+                "joint_prob": 0.008849557522123894,
+                "confidence": 1.0,
+                "lift": 84.75
+            },
+            {
+                "source": "we",
+                "edge": "rebuild",
+                "target": "wall",
+                "count": 4,
+                "book": "Nehemiah",
+                "prob_consequent": 0.029498525073746312,
+                "prob_antecedent": 0.011799410029498525,
+                "joint_prob": 0.011799410029498525,
+                "confidence": 1.0,
+                "lift": 33.9
+            },
+            {
+                "source": "you",
+                "edge": "warn",
+                "target": "they",
+                "count": 3,
+                "book": "Nehemiah",
+                "prob_consequent": 0.10029498525073746,
+                "prob_antecedent": 0.008849557522123894,
+                "joint_prob": 0.008849557522123894,
+                "confidence": 1.0,
+                "lift": 9.970588235294118
+            }
+        ]
+    },
+    "Numbers": {
+        "by_count": [
+            {
+                "source": "lord",
+                "edge": "command",
+                "target": "moses",
+                "count": 16,
+                "book": "Numbers",
+                "prob_consequent": 0.026347305389221556,
+                "prob_antecedent": 0.031137724550898204,
+                "joint_prob": 0.019161676646706587,
+                "confidence": 0.6153846153846154,
+                "lift": 23.35664335664336
+            },
+            {
+                "source": "that",
+                "edge": "bring",
+                "target": "curse",
+                "count": 6,
+                "book": "Numbers",
+                "prob_consequent": 0.008383233532934131,
+                "prob_antecedent": 0.00718562874251497,
+                "joint_prob": 0.00718562874251497,
+                "confidence": 1.0,
+                "lift": 119.28571428571429
+            },
+            {
+                "source": "she",
+                "edge": "obligate",
+                "target": "herself",
+                "count": 6,
+                "book": "Numbers",
+                "prob_consequent": 0.00718562874251497,
+                "prob_antecedent": 0.00718562874251497,
+                "joint_prob": 0.00718562874251497,
+                "confidence": 1.0,
+                "lift": 139.16666666666666
+            },
+            {
+                "source": "lord",
+                "edge": "command",
+                "target": "he",
+                "count": 5,
+                "book": "Numbers",
+                "prob_consequent": 0.027544910179640718,
+                "prob_antecedent": 0.031137724550898204,
+                "joint_prob": 0.005988023952095809,
+                "confidence": 0.19230769230769232,
+                "lift": 6.981605351170569
+            },
+            {
+                "source": "moses",
+                "edge": "count",
+                "target": "they",
+                "count": 4,
+                "book": "Numbers",
+                "prob_consequent": 0.06706586826347305,
+                "prob_antecedent": 0.008383233532934131,
+                "joint_prob": 0.004790419161676647,
+                "confidence": 0.5714285714285715,
+                "lift": 8.520408163265309
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "that",
+                "edge": "symbolize",
+                "target": "dedication",
+                "count": 3,
+                "book": "Numbers",
+                "prob_consequent": 0.003592814371257485,
+                "prob_antecedent": 0.003592814371257485,
+                "joint_prob": 0.003592814371257485,
+                "confidence": 1.0,
+                "lift": 278.3333333333333
+            },
+            {
+                "source": "avenger",
+                "edge": "put",
+                "target": "murderer",
+                "count": 3,
+                "book": "Numbers",
+                "prob_consequent": 0.003592814371257485,
+                "prob_antecedent": 0.003592814371257485,
+                "joint_prob": 0.003592814371257485,
+                "confidence": 1.0,
+                "lift": 278.3333333333333
+            },
+            {
+                "source": "earth",
+                "edge": "open",
+                "target": "mouth",
+                "count": 3,
+                "book": "Numbers",
+                "prob_consequent": 0.004790419161676647,
+                "prob_antecedent": 0.003592814371257485,
+                "joint_prob": 0.003592814371257485,
+                "confidence": 1.0,
+                "lift": 208.75
+            },
+            {
+                "source": "dish",
+                "edge": "weigh",
+                "target": "shekel",
+                "count": 3,
+                "book": "Numbers",
+                "prob_consequent": 0.005988023952095809,
+                "prob_antecedent": 0.003592814371257485,
+                "joint_prob": 0.003592814371257485,
+                "confidence": 1.0,
+                "lift": 167.0
+            },
+            {
+                "source": "man",
+                "edge": "wash",
+                "target": "clothe",
+                "count": 3,
+                "book": "Numbers",
+                "prob_consequent": 0.00718562874251497,
+                "prob_antecedent": 0.003592814371257485,
+                "joint_prob": 0.003592814371257485,
+                "confidence": 1.0,
+                "lift": 139.16666666666666
+            }
+        ]
+    },
+    "Proverbs": {
+        "by_count": [
+            {
+                "source": "who",
+                "edge": "have",
+                "target": "sense",
+                "count": 7,
+                "book": "Proverbs",
+                "prob_consequent": 0.012064343163538873,
+                "prob_antecedent": 0.022788203753351208,
+                "joint_prob": 0.00938337801608579,
+                "confidence": 0.41176470588235287,
+                "lift": 34.13071895424836
+            },
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "Proverbs",
+                "prob_consequent": 0.020107238605898123,
+                "prob_antecedent": 0.005361930294906166,
+                "joint_prob": 0.005361930294906166,
+                "confidence": 1.0,
+                "lift": 49.733333333333334
+            },
+            {
+                "source": "who",
+                "edge": "plot",
+                "target": "evil",
+                "count": 3,
+                "book": "Proverbs",
+                "prob_consequent": 0.021447721179624665,
+                "prob_antecedent": 0.004021447721179625,
+                "joint_prob": 0.004021447721179625,
+                "confidence": 1.0,
+                "lift": 46.625
+            },
+            {
+                "source": "whoever",
+                "edge": "heed",
+                "target": "correction",
+                "count": 3,
+                "book": "Proverbs",
+                "prob_consequent": 0.012064343163538873,
+                "prob_antecedent": 0.005361930294906166,
+                "joint_prob": 0.004021447721179625,
+                "confidence": 0.75,
+                "lift": 62.16666666666667
+            },
+            {
+                "source": "person",
+                "edge": "stir",
+                "target": "conflict",
+                "count": 3,
+                "book": "Proverbs",
+                "prob_consequent": 0.00938337801608579,
+                "prob_antecedent": 0.004021447721179625,
+                "joint_prob": 0.004021447721179625,
+                "confidence": 1.0,
+                "lift": 106.57142857142858
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "person",
+                "edge": "stir",
+                "target": "conflict",
+                "count": 3,
+                "book": "Proverbs",
+                "prob_consequent": 0.00938337801608579,
+                "prob_antecedent": 0.004021447721179625,
+                "joint_prob": 0.004021447721179625,
+                "confidence": 1.0,
+                "lift": 106.57142857142858
+            },
+            {
+                "source": "whoever",
+                "edge": "heed",
+                "target": "correction",
+                "count": 3,
+                "book": "Proverbs",
+                "prob_consequent": 0.012064343163538873,
+                "prob_antecedent": 0.005361930294906166,
+                "joint_prob": 0.004021447721179625,
+                "confidence": 0.75,
+                "lift": 62.16666666666667
+            },
+            {
+                "source": "i",
+                "edge": "say",
+                "target": "what",
+                "count": 4,
+                "book": "Proverbs",
+                "prob_consequent": 0.020107238605898123,
+                "prob_antecedent": 0.005361930294906166,
+                "joint_prob": 0.005361930294906166,
+                "confidence": 1.0,
+                "lift": 49.733333333333334
+            },
+            {
+                "source": "who",
+                "edge": "plot",
+                "target": "evil",
+                "count": 3,
+                "book": "Proverbs",
+                "prob_consequent": 0.021447721179624665,
+                "prob_antecedent": 0.004021447721179625,
+                "joint_prob": 0.004021447721179625,
+                "confidence": 1.0,
+                "lift": 46.625
+            },
+            {
+                "source": "who",
+                "edge": "have",
+                "target": "sense",
+                "count": 7,
+                "book": "Proverbs",
+                "prob_consequent": 0.012064343163538873,
+                "prob_antecedent": 0.022788203753351208,
+                "joint_prob": 0.00938337801608579,
+                "confidence": 0.41176470588235287,
+                "lift": 34.13071895424836
+            }
+        ]
+    },
+    "Psalm": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "praise",
+                "target": "you",
+                "count": 20,
+                "book": "Psalm",
+                "prob_consequent": 0.057692307692307696,
+                "prob_antecedent": 0.018711018711018712,
+                "joint_prob": 0.010395010395010396,
+                "confidence": 0.5555555555555556,
+                "lift": 9.62962962962963
+            },
+            {
+                "source": "who",
+                "edge": "fear",
+                "target": "he",
+                "count": 13,
+                "book": "Psalm",
+                "prob_consequent": 0.032744282744282746,
+                "prob_antecedent": 0.014553014553014554,
+                "joint_prob": 0.006756756756756757,
+                "confidence": 0.4642857142857143,
+                "lift": 14.179138321995465
+            },
+            {
+                "source": "i",
+                "edge": "take",
+                "target": "refuge",
+                "count": 12,
+                "book": "Psalm",
+                "prob_consequent": 0.011954261954261955,
+                "prob_antecedent": 0.008316008316008316,
+                "joint_prob": 0.006237006237006237,
+                "confidence": 0.75,
+                "lift": 62.7391304347826
+            },
+            {
+                "source": "i",
+                "edge": "sing",
+                "target": "praise",
+                "count": 11,
+                "book": "Psalm",
+                "prob_consequent": 0.009875259875259876,
+                "prob_antecedent": 0.006756756756756757,
+                "joint_prob": 0.005717255717255718,
+                "confidence": 0.8461538461538461,
+                "lift": 85.68421052631578
+            },
+            {
+                "source": "who",
+                "edge": "fear",
+                "target": "lord",
+                "count": 8,
+                "book": "Psalm",
+                "prob_consequent": 0.016112266112266113,
+                "prob_antecedent": 0.014553014553014554,
+                "joint_prob": 0.004158004158004158,
+                "confidence": 0.2857142857142857,
+                "lift": 17.732718894009214
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "fulfill",
+                "target": "vow",
+                "count": 3,
+                "book": "Psalm",
+                "prob_consequent": 0.002598752598752599,
+                "prob_antecedent": 0.0015592515592515593,
+                "joint_prob": 0.0015592515592515593,
+                "confidence": 1.0,
+                "lift": 384.79999999999995
+            },
+            {
+                "source": "i",
+                "edge": "sacrifice",
+                "target": "offering",
+                "count": 3,
+                "book": "Psalm",
+                "prob_consequent": 0.0031185031185031187,
+                "prob_antecedent": 0.0015592515592515593,
+                "joint_prob": 0.0015592515592515593,
+                "confidence": 1.0,
+                "lift": 320.66666666666663
+            },
+            {
+                "source": "he",
+                "edge": "strike",
+                "target": "firstborn",
+                "count": 3,
+                "book": "Psalm",
+                "prob_consequent": 0.002079002079002079,
+                "prob_antecedent": 0.0031185031185031187,
+                "joint_prob": 0.0015592515592515593,
+                "confidence": 0.5,
+                "lift": 240.5
+            },
+            {
+                "source": "i",
+                "edge": "open",
+                "target": "mouth",
+                "count": 3,
+                "book": "Psalm",
+                "prob_consequent": 0.004677754677754678,
+                "prob_antecedent": 0.0015592515592515593,
+                "joint_prob": 0.0015592515592515593,
+                "confidence": 1.0,
+                "lift": 213.77777777777777
+            },
+            {
+                "source": "you",
+                "edge": "show",
+                "target": "yourself",
+                "count": 3,
+                "book": "Psalm",
+                "prob_consequent": 0.002598752598752599,
+                "prob_antecedent": 0.0036382536382536385,
+                "joint_prob": 0.0015592515592515593,
+                "confidence": 0.42857142857142855,
+                "lift": 164.91428571428568
+            }
+        ]
+    },
+    "Revelation": {
+        "by_count": [
+            {
+                "source": "whoever",
+                "edge": "have",
+                "target": "ear",
+                "count": 8,
+                "book": "Revelation",
+                "prob_consequent": 0.020942408376963352,
+                "prob_antecedent": 0.020942408376963352,
+                "joint_prob": 0.020942408376963352,
+                "confidence": 1.0,
+                "lift": 47.75
+            },
+            {
+                "source": "spirit",
+                "edge": "say",
+                "target": "what",
+                "count": 7,
+                "book": "Revelation",
+                "prob_consequent": 0.04450261780104712,
+                "prob_antecedent": 0.01832460732984293,
+                "joint_prob": 0.01832460732984293,
+                "confidence": 1.0,
+                "lift": 22.47058823529412
+            },
+            {
+                "source": "angel",
+                "edge": "sound",
+                "target": "trumpet",
+                "count": 7,
+                "book": "Revelation",
+                "prob_consequent": 0.02356020942408377,
+                "prob_antecedent": 0.01832460732984293,
+                "joint_prob": 0.01832460732984293,
+                "confidence": 1.0,
+                "lift": 42.44444444444444
+            },
+            {
+                "source": "angel",
+                "edge": "pour",
+                "target": "bowl",
+                "count": 6,
+                "book": "Revelation",
+                "prob_consequent": 0.02356020942408377,
+                "prob_antecedent": 0.015706806282722512,
+                "joint_prob": 0.015706806282722512,
+                "confidence": 1.0,
+                "lift": 42.44444444444444
+            },
+            {
+                "source": "i",
+                "edge": "know",
+                "target": "deed",
+                "count": 5,
+                "book": "Revelation",
+                "prob_consequent": 0.013089005235602094,
+                "prob_antecedent": 0.015706806282722512,
+                "joint_prob": 0.013089005235602094,
+                "confidence": 0.8333333333333334,
+                "lift": 63.66666666666667
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "what",
+                "edge": "take",
+                "target": "place",
+                "count": 3,
+                "book": "Revelation",
+                "prob_consequent": 0.013089005235602094,
+                "prob_antecedent": 0.007853403141361256,
+                "joint_prob": 0.007853403141361256,
+                "confidence": 1.0,
+                "lift": 76.4
+            },
+            {
+                "source": "i",
+                "edge": "know",
+                "target": "deed",
+                "count": 5,
+                "book": "Revelation",
+                "prob_consequent": 0.013089005235602094,
+                "prob_antecedent": 0.015706806282722512,
+                "joint_prob": 0.013089005235602094,
+                "confidence": 0.8333333333333334,
+                "lift": 63.66666666666667
+            },
+            {
+                "source": "whoever",
+                "edge": "have",
+                "target": "ear",
+                "count": 8,
+                "book": "Revelation",
+                "prob_consequent": 0.020942408376963352,
+                "prob_antecedent": 0.020942408376963352,
+                "joint_prob": 0.020942408376963352,
+                "confidence": 1.0,
+                "lift": 47.75
+            },
+            {
+                "source": "angel",
+                "edge": "pour",
+                "target": "bowl",
+                "count": 6,
+                "book": "Revelation",
+                "prob_consequent": 0.02356020942408377,
+                "prob_antecedent": 0.015706806282722512,
+                "joint_prob": 0.015706806282722512,
+                "confidence": 1.0,
+                "lift": 42.44444444444444
+            },
+            {
+                "source": "angel",
+                "edge": "sound",
+                "target": "trumpet",
+                "count": 7,
+                "book": "Revelation",
+                "prob_consequent": 0.02356020942408377,
+                "prob_antecedent": 0.01832460732984293,
+                "joint_prob": 0.01832460732984293,
+                "confidence": 1.0,
+                "lift": 42.44444444444444
+            }
+        ]
+    },
+    "Romans": {
+        "by_count": [
+            {
+                "source": "we",
+                "edge": "say",
+                "target": "what",
+                "count": 7,
+                "book": "Romans",
+                "prob_consequent": 0.06321839080459771,
+                "prob_antecedent": 0.020114942528735632,
+                "joint_prob": 0.020114942528735632,
+                "confidence": 1.0,
+                "lift": 15.818181818181817
+            },
+            {
+                "source": "god",
+                "edge": "give",
+                "target": "they",
+                "count": 3,
+                "book": "Romans",
+                "prob_consequent": 0.028735632183908046,
+                "prob_antecedent": 0.017241379310344827,
+                "joint_prob": 0.008620689655172414,
+                "confidence": 0.5,
+                "lift": 17.4
+            },
+            {
+                "source": "who",
+                "edge": "do",
+                "target": "thing",
+                "count": 3,
+                "book": "Romans",
+                "prob_consequent": 0.020114942528735632,
+                "prob_antecedent": 0.028735632183908046,
+                "joint_prob": 0.008620689655172414,
+                "confidence": 0.3,
+                "lift": 14.914285714285715
+            },
+            {
+                "source": "i",
+                "edge": "urge",
+                "target": "you",
+                "count": 3,
+                "book": "Romans",
+                "prob_consequent": 0.05172413793103448,
+                "prob_antecedent": 0.008620689655172414,
+                "joint_prob": 0.008620689655172414,
+                "confidence": 1.0,
+                "lift": 19.333333333333332
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "urge",
+                "target": "you",
+                "count": 3,
+                "book": "Romans",
+                "prob_consequent": 0.05172413793103448,
+                "prob_antecedent": 0.008620689655172414,
+                "joint_prob": 0.008620689655172414,
+                "confidence": 1.0,
+                "lift": 19.333333333333332
+            },
+            {
+                "source": "god",
+                "edge": "give",
+                "target": "they",
+                "count": 3,
+                "book": "Romans",
+                "prob_consequent": 0.028735632183908046,
+                "prob_antecedent": 0.017241379310344827,
+                "joint_prob": 0.008620689655172414,
+                "confidence": 0.5,
+                "lift": 17.4
+            },
+            {
+                "source": "we",
+                "edge": "say",
+                "target": "what",
+                "count": 7,
+                "book": "Romans",
+                "prob_consequent": 0.06321839080459771,
+                "prob_antecedent": 0.020114942528735632,
+                "joint_prob": 0.020114942528735632,
+                "confidence": 1.0,
+                "lift": 15.818181818181817
+            },
+            {
+                "source": "who",
+                "edge": "do",
+                "target": "thing",
+                "count": 3,
+                "book": "Romans",
+                "prob_consequent": 0.020114942528735632,
+                "prob_antecedent": 0.028735632183908046,
+                "joint_prob": 0.008620689655172414,
+                "confidence": 0.3,
+                "lift": 14.914285714285715
+            }
+        ]
+    },
+    "Song Of Solomon": {
+        "by_count": [
+            {
+                "source": "i",
+                "edge": "charge",
+                "target": "you",
+                "count": 4,
+                "book": "Song Of Solomon",
+                "prob_consequent": 0.13043478260869565,
+                "prob_antecedent": 0.043478260869565216,
+                "joint_prob": 0.043478260869565216,
+                "confidence": 1.0,
+                "lift": 7.666666666666667
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "charge",
+                "target": "you",
+                "count": 4,
+                "book": "Song Of Solomon",
+                "prob_consequent": 0.13043478260869565,
+                "prob_antecedent": 0.043478260869565216,
+                "joint_prob": 0.043478260869565216,
+                "confidence": 1.0,
+                "lift": 7.666666666666667
+            }
+        ]
+    },
+    "Zechariah": {
+        "by_count": [
+            {
+                "source": "almighty",
+                "edge": "say",
+                "target": "what",
+                "count": 17,
+                "book": "Zechariah",
+                "prob_consequent": 0.1323529411764706,
+                "prob_antecedent": 0.08333333333333333,
+                "joint_prob": 0.08333333333333333,
+                "confidence": 1.0,
+                "lift": 7.555555555555555
+            },
+            {
+                "source": "i",
+                "edge": "ask",
+                "target": "angel",
+                "count": 5,
+                "book": "Zechariah",
+                "prob_consequent": 0.024509803921568627,
+                "prob_antecedent": 0.029411764705882353,
+                "joint_prob": 0.024509803921568627,
+                "confidence": 0.8333333333333334,
+                "lift": 34.0
+            },
+            {
+                "source": "almighty",
+                "edge": "send",
+                "target": "i",
+                "count": 4,
+                "book": "Zechariah",
+                "prob_consequent": 0.07352941176470588,
+                "prob_antecedent": 0.024509803921568627,
+                "joint_prob": 0.0196078431372549,
+                "confidence": 0.8,
+                "lift": 10.88
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "Zechariah",
+                "prob_consequent": 0.1323529411764706,
+                "prob_antecedent": 0.014705882352941176,
+                "joint_prob": 0.014705882352941176,
+                "confidence": 1.0,
+                "lift": 7.555555555555555
+            },
+            {
+                "source": "i",
+                "edge": "bring",
+                "target": "they",
+                "count": 3,
+                "book": "Zechariah",
+                "prob_consequent": 0.08823529411764706,
+                "prob_antecedent": 0.014705882352941176,
+                "joint_prob": 0.014705882352941176,
+                "confidence": 1.0,
+                "lift": 11.333333333333332
+            }
+        ],
+        "by_lift": [
+            {
+                "source": "i",
+                "edge": "ask",
+                "target": "angel",
+                "count": 5,
+                "book": "Zechariah",
+                "prob_consequent": 0.024509803921568627,
+                "prob_antecedent": 0.029411764705882353,
+                "joint_prob": 0.024509803921568627,
+                "confidence": 0.8333333333333334,
+                "lift": 34.0
+            },
+            {
+                "source": "i",
+                "edge": "bring",
+                "target": "they",
+                "count": 3,
+                "book": "Zechariah",
+                "prob_consequent": 0.08823529411764706,
+                "prob_antecedent": 0.014705882352941176,
+                "joint_prob": 0.014705882352941176,
+                "confidence": 1.0,
+                "lift": 11.333333333333332
+            },
+            {
+                "source": "almighty",
+                "edge": "send",
+                "target": "i",
+                "count": 4,
+                "book": "Zechariah",
+                "prob_consequent": 0.07352941176470588,
+                "prob_antecedent": 0.024509803921568627,
+                "joint_prob": 0.0196078431372549,
+                "confidence": 0.8,
+                "lift": 10.88
+            },
+            {
+                "source": "almighty",
+                "edge": "say",
+                "target": "what",
+                "count": 17,
+                "book": "Zechariah",
+                "prob_consequent": 0.1323529411764706,
+                "prob_antecedent": 0.08333333333333333,
+                "joint_prob": 0.08333333333333333,
+                "confidence": 1.0,
+                "lift": 7.555555555555555
+            },
+            {
+                "source": "lord",
+                "edge": "say",
+                "target": "what",
+                "count": 3,
+                "book": "Zechariah",
+                "prob_consequent": 0.1323529411764706,
+                "prob_antecedent": 0.014705882352941176,
+                "joint_prob": 0.014705882352941176,
+                "confidence": 1.0,
+                "lift": 7.555555555555555
+            }
+        ]
+    }
+}

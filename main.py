@@ -15,6 +15,7 @@ ARTIFACTS_DIR = Path('./artifacts')
 RAW_DIR = ARTIFACTS_DIR / 'raw'
 BIBLE_DIR = RAW_DIR / 'bible'
 INDEX_DIR = ARTIFACTS_DIR / 'indexes'
+FINDINGS_DIR = ARTIFACTS_DIR / "findings"
 INDEX_DIR_PATH = Path(INDEX_DIR)
 
 nlp = spacy.load("en_core_web_trf")
@@ -387,6 +388,33 @@ def read_all_post_indexes(index_dir):
 
     return df
 
+def save_df_triples(df, file_path):
+    """
+    Given a Dataframe with the column { book, lift, triple, count }, prints
+    it
+    """
+    sns.set_style("whitegrid")
+    g = sns.FacetGrid(df, col="book", col_wrap=3, sharey=False, sharex=False, height=4, aspect=1.5)
+    g.map_dataframe(sns.barplot, x="lift", y="triple", palette="viridis")
+    # 1. Add borders (spines) to every subplot
+    for ax in g.axes.flat:
+        # Turn on all 4 borders
+        ax.spines['bottom'].set_visible(True)
+        ax.spines['left'].set_visible(True) 
+        ax.spines['right'].set_visible(True)
+        ax.spines['top'].set_visible(True)
+        
+        # Optional: Make them slightly thicker or a specific color
+        for spine in ax.spines.values():
+            spine.set_edgecolor('black')
+            spine.set_linewidth(1.0)
+    # Formatting
+    g.set_titles("{col_name}")
+    g.set_axis_labels("Lift", "Triple")
+    g.fig.suptitle('Top 5 Triples per Book')
+    plt.subplots_adjust(top=0.9) # Add space for title
+    # Save
+    plt.savefig(file_path, bbox_inches='tight')
 
 def main():
     print("Hello from bible-lm!")
@@ -409,18 +437,34 @@ def main():
     # generate_scatter_plot(df)
 
     # index whole bible, then compare books
-    df = read_all_post_indexes(INDEX_DIR)
+    df = read_all_post_indexes(INDEX_DIR_PATH)
     print(f'Got DF of whole bible')
     df = calculate_lift_grouped(df, group_col='book')
+    # Save the triple as a value for later
+    df['triple'] = df['source'] + " -> " + df['edge'] + " -> " + df['target']
 
     # Now we can investigate
-    at_least_3_times = df[df['count'] >= 10]
-    print(at_least_3_times.sort_values('lift', ascending=False).head(10))
+    must_be_used_more_than_twice = df[df['count'] >= 3]
 
+    # Get the top 5 from each book by lift
+    top_5_df = must_be_used_more_than_twice.groupby('book', group_keys=False).apply(lambda x: x.nlargest(5, 'lift'))
 
+    # Save to image
+    # Save the top 5 by lift with only
+    lift_img_file_path = FINDINGS_DIR / "lift" / "top-5-lift.png"
+    save_df_triples(top_5_df, lift_img_file_path)
 
+    # Save the top 5 by count
+    counnt_img_file_path = FINDINGS_DIR / "lift" / "top-5-count.png"
+    save_df_triples(
+    df.groupby('book', group_keys=False).apply(lambda x: x.nlargest(5, 'count')),
+    counnt_img_file_path
+    )
 
+    print("\n")
+    print("-----All Done!------")
 
+    
 
 if __name__ == "__main__":
     main()
